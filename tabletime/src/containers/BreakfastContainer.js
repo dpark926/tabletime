@@ -14,16 +14,16 @@ class BreakfastContainer extends Component {
     return (
       <div>
         [ breakfast container ]
-        <Link to="/coffee-tea">
+        <Link to="/breakfast/coffee-tea">
           <div>Coffee & Tea</div>
         </Link>
-        <Link to="/coffee-tea">
+        <Link to="/breakfast/bagels">
           <div>Bagels</div>
         </Link>
-        <Link to="/coffee-tea">
+        <Link to="/breakfast/breakfast">
           <div>Breakfast</div>
         </Link>
-        <Link to="/coffee-tea">
+        <Link to="/breakfast/pastries">
           <div>Pastries</div>
         </Link>
       </div>
