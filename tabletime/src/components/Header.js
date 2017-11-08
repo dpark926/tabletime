@@ -4,9 +4,9 @@ import '../styles/Header.css'
 function Header () {
   return (
     <div className='header'>
-      <div>20 EAST 42ND ST</div>
-      <div>TABLETIMENYC@GMAIL.COM</div>
-      <div>(212) 682-4242</div>
+      <div className='header-each'>20 EAST 42ND ST</div>
+      <div className='header-each'>TABLETIMENYC@GMAIL.COM</div>
+      <div className='header-each'>(212) 682-4242</div>
     </div>
   )
 }

@@ -1,3 +1,8 @@
 .header {
   border: 1px solid red;
 }
+
+.header-each {
+  display: inline-block;
+  margin: 20px;
+}

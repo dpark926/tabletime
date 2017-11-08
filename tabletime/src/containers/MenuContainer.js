@@ -3,6 +3,7 @@ import Header from '../components/Header.js'
 import { Route, Redirect, Link } from 'react-router-dom'
 import BreakfastContainer from './BreakfastContainer.js'
 import LunchContainer from './LunchContainer.js'
+import '../styles/Menu.css'
 
 class MenuContainer extends Component {
   constructor () {
@@ -19,10 +20,10 @@ class MenuContainer extends Component {
         [ tabletime logo ]
         <Header/>
         <Link to="/breakfast">
-          <div>Breakfast</div>
+          <div className='breakfast-lunch-link'>Breakfast</div>
         </Link>
         <Link to="/lunch">
-          <div>Lunch</div>
+          <div className='breakfast-lunch-link'>Lunch</div>
         </Link>
 
         {/* <Route path="/breakfast-menu" component={BreakfastContainer}/>

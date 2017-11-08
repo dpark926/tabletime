@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/BreakfastLunch.css'
 
 class BreakfastContainer extends Component {
   constructor () {
@@ -15,16 +16,16 @@ class BreakfastContainer extends Component {
       <div>
         [ breakfast container ]
         <Link to="/breakfast/coffee-tea">
-          <div>Coffee & Tea</div>
+          <div className='breakfast-category'>Coffee & Tea</div>
         </Link>
         <Link to="/breakfast/bagels">
-          <div>Bagels</div>
+          <div className='breakfast-category'>Bagels</div>
         </Link>
         <Link to="/breakfast/breakfast">
-          <div>Breakfast</div>
+          <div className='breakfast-category'>Breakfast</div>
         </Link>
         <Link to="/breakfast/pastries">
-          <div>Pastries</div>
+          <div className='breakfast-category'>Pastries</div>
         </Link>
       </div>
     )
