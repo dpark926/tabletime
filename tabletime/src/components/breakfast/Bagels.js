@@ -5,30 +5,52 @@ function Bagels () {
   return (
     <div>
       <h1>BAGELS</h1>
-      <ul>
-        <li>PLAIN BAGEL
-        $1.00</li>
-        <li>TOASTED PLAIN BAGEL
-        $1.25</li>
-        <li>BUTTER
-        $1.50</li>
-        <li>BUTTER & JELLY
-        $1.75</li>
-        <li>PLAIN CREAM CHEESE
-        $2.00</li>
-        <li>LOW FAT CREAM CHEESE
-        $2.50</li>
-        <li>VEGETABLE CREAM CHEESE
-        $2.50</li>
-        <li>SCALLION CREAM CHEESE
-        $2.50</li>
-        <li>PEANUT BUTTER
-        $2.50</li>
-        <li>LOX SPREAD
-        $2.95</li>
-        <li>NOVA LOX & CREAM CHEESE W/TOMATOES AND ONIONS
-        $7.25</li>
-      </ul>
+      <div>
+        <div>
+          <div>PLAIN BAGEL</div>
+          <div>$1.00</div>
+        </div>
+        <div>
+          <div>TOASTED PLAIN BAGEL</div>
+          <div>$1.25</div>
+        </div>
+        <div>
+          <div>BUTTER</div>
+          <div>$1.50</div>
+        </div>
+        <div>
+          <div>BUTTER & JELLY</div>
+          <div>$1.75</div>
+        </div>
+        <div>
+          <div>PLAIN CREAM CHEESE</div>
+          <div>$2.00</div>
+        </div>
+        <div>
+          <div>LOW FAT CREAM CHEESE</div>
+          <div>$2.50</div>
+        </div>
+        <div>
+          <div>VEGETABLE CREAM CHEESE</div>
+          <div>$2.50</div>
+        </div>
+        <div>
+          <div>SCALLION CREAM CHEESE</div>
+          <div>$2.50</div>
+        </div>
+        <div>
+          <div>PEANUT BUTTER</div>
+          <div>$2.50</div>
+        </div>
+        <div>
+          <div>LOX SPREAD</div>
+          <div>$2.95</div>
+        </div>
+        <div>
+          <div>NOVA LOX & CREAM CHEESE W/TOMATOES AND ONIONS</div>
+          <div>$7.25</div>
+        </div>
+      </div>
     </div>
   )
 }

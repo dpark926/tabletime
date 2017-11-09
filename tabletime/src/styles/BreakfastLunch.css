@@ -1,4 +1,9 @@
 .breakfast-category {
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
+}
+
+.lunch-category {
+  display: inline-block;
+  margin: 10px;
 }

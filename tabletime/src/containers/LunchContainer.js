@@ -15,25 +15,25 @@ class LunchContainer extends Component {
       <div>
         [ lunch container ]
         <Link to="/lunch/sandwiches">
-          <div>Sandwiches</div>
+          <div className='lunch-category'>Sandwiches</div>
         </Link>
         <Link to="/lunch/salads">
-          <div>Salads</div>
+          <div className='lunch-category'>Salads</div>
         </Link>
         <Link to="/lunch/burgers">
-          <div>Burgers</div>
+          <div className='lunch-category'>Burgers</div>
         </Link>
         <Link to="/lunch/quesadillas">
-          <div>Quesadillas</div>
+          <div className='lunch-category'>Quesadillas</div>
         </Link>
         <Link to="/lunch/wraps">
-          <div>Wraps</div>
+          <div className='lunch-category'>Wraps</div>
         </Link>
         <Link to="/lunch/paninis">
-          <div>Paninis</div>
+          <div className='lunch-category'>Paninis</div>
         </Link>
         <Link to="/lunch/asian">
-          <div>Asian</div>
+          <div className='lunch-category'>Asian</div>
         </Link>
 
       </div>

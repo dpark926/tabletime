@@ -5,30 +5,52 @@ function CoffeeTea () {
   return (
     <div>
       <h1>COFFEE & TEA</h1>
-      <ul>
-        <li>100% COLOMBIAN COFFEE
-          $1.50 / $2.00</li>
-        <li>HAZELNUT COFFEE
-          $1.75 / $2.25</li>
-        <li>LIPTON TEA
-          $1.50 / $2.00</li>
-        <li>HERBAL TEA
-          $1.75 / $2.25</li>
-        <li>HOT CHOCOLATE (w/steamed milk)
-        $2.25 / $3.00</li>
-        <li>CAPPUCCINO
-          $2.95 / $3.95</li>
-        <li>CAFE LATTE
-          $2.95 / $3.95</li>
-        <li> ESPRESSO
-          $2.00 (single) / $3.00 (double)</li>
-        <li>ICED COFFEE OR TEA
-          $2.25 / $3.25</li>
-        <li>ICED CAPPUCCINO
-          $3.25 / $4.25</li>
-        <li>ICED CAFE LATTE
-          $3.25 / $4.25</li>
-      </ul>
+      <div>
+        <div>
+          <div>100% COLOMBIAN COFFEE</div>
+          <div>$1.50 / $2.00</div>
+        </div>
+        <div>
+          <div>HAZELNUT COFFEE</div>
+          <div>$1.75 / $2.25</div>
+        </div>
+        <div>
+          <div>LIPTON TEA</div>
+          <div>$1.50 / $2.00</div>
+        </div>
+        <div>
+          <div>HERBAL TEA</div>
+          <div>$1.75 / $2.25</div>
+        </div>
+        <div>
+          <div>HOT CHOCOLATE (w/steamed milk)</div>
+          <div>$2.25 / $3.00</div>
+        </div>
+        <div>
+          <div>CAPPUCCINO</div>
+          <div>$2.95 / $3.95</div>
+        </div>
+        <div>
+          <div>CAFE LATTE</div>
+          <div>$2.95 / $3.95</div>
+        </div>
+        <div>
+          <div>ESPRESSO</div>
+          <div>$2.00 (single) / $3.00 (double)</div>
+        </div>
+        <div>
+          <div>ICED COFFEE OR TEA</div>
+          <div>$2.25 / $3.25</div>
+        </div>
+        <div>
+          <div>ICED CAPPUCCINO</div>
+          <div>$3.25 / $4.25</div>
+        </div>
+        <div>
+          <div>ICED CAFE LATTE</div>
+          <div>$3.25 / $4.25</div>
+        </div>
+      </div>
     </div>
   )
 }
