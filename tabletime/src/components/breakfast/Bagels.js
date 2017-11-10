@@ -5,50 +5,54 @@ function Bagels () {
   return (
     <div>
       <h1>BAGELS</h1>
-      <div>
-        <div>
-          <div>PLAIN BAGEL</div>
-          <div>$1.00</div>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>PLAIN BAGEL</span>
+          <span className='item-price'>$1.00</span>
         </div>
-        <div>
-          <div>TOASTED PLAIN BAGEL</div>
-          <div>$1.25</div>
+        <div className='item-box'>
+          <span className='item-name'>TOASTED PLAIN BAGEL</span>
+          <span className='item-price'>$1.25</span>
         </div>
-        <div>
-          <div>BUTTER</div>
-          <div>$1.50</div>
+        <div className='item-box'>
+          <span className='item-name'>BUTTER</span>
+          <span className='item-price'>$1.50</span>
         </div>
-        <div>
-          <div>BUTTER & JELLY</div>
-          <div>$1.75</div>
+        <div className='item-box'>
+          <span className='item-name'>BUTTER & JELLY</span>
+          <span className='item-price'>$1.75</span>
         </div>
-        <div>
-          <div>PLAIN CREAM CHEESE</div>
-          <div>$2.00</div>
+        <div className='item-box'>
+          <span className='item-name'>PLAIN CREAM CHEESE</span>
+          <span className='item-price'>$2.00</span>
         </div>
-        <div>
-          <div>LOW FAT CREAM CHEESE</div>
-          <div>$2.50</div>
+        <div className='item-box'>
+          <span className='item-name'>LOW FAT CREAM CHEESE</span>
+          <span className='item-price'>$2.50</span>
         </div>
-        <div>
-          <div>VEGETABLE CREAM CHEESE</div>
-          <div>$2.50</div>
+        <div className='item-box'>
+          <span className='item-name'>VEGETABLE CREAM CHEESE</span>
+          <span className='item-price'>$2.50</span>
         </div>
-        <div>
-          <div>SCALLION CREAM CHEESE</div>
-          <div>$2.50</div>
+        <div className='item-box'>
+          <span className='item-name'>SCALLION CREAM CHEESE</span>
+          <span className='item-price'>$2.50</span>
         </div>
-        <div>
-          <div>PEANUT BUTTER</div>
-          <div>$2.50</div>
+        <div className='item-box'>
+          <span className='item-name'>PEANUT BUTTER</span>
+          <span className='item-price'>$2.50</span>
         </div>
-        <div>
-          <div>LOX SPREAD</div>
-          <div>$2.95</div>
+        <div className='item-box'>
+          <span className='item-name'>LOX SPREAD</span>
+          <span className='item-price'>$2.95</span>
         </div>
-        <div>
-          <div>NOVA LOX & CREAM CHEESE W/TOMATOES AND ONIONS</div>
-          <div>$7.25</div>
+        <div className='item-box'>
+          <span className='item-name'>NOVA LOX & CREAM CHEESE W/TOMATOES AND ONIONS</span>
+          <span className='item-price'>$7.25</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'></span>
+          <span className='item-price'></span>
         </div>
       </div>
     </div>

@@ -5,18 +5,18 @@ function Pastries () {
   return (
     <div>
       <h1>PASTRIES</h1>
-      <ul>
-        <li>
-          MUFFINS
-          Corn, Blueberry, Raisin Bran, Almond Poppy Seed, Berry Blast, Cappuccino & More
-          $2.25
-        </li>
-        <li>
-          CROISSANTS & DANISHES
-          Almond, Chocolate, Cheese, Fruit & More
-          $2.25
-        </li>
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>MUFFINS<br/>
+          Corn, Blueberry, Raisin Bran, Almond Poppy Seed, Berry Blast, Cappuccino & More</span>
+          <span className='item-price'>$2.25</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>CROISSANTS & DANISHES<br/>
+          Almond, Chocolate, Cheese, Fruit & More</span>
+          <span className='item-price'>$2.25</span>
+        </div>
+      </div>
     </div>
   )
 }

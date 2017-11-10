@@ -6,75 +6,119 @@ function Breakfast () {
     <div>
       <h1>BREAKFAST SANDWICHES</h1>
       <h6>$1.00 EXTRA FOR EGGWHITE</h6>
-      <ul>
-        <li>ONE EGG ON A ROLL
-        $1.75</li>
-        <li>Each Additional Egg
-        $0.50</li>
-        <li>Add Cheese
-        $0.50</li>
-        <li>Add Bacon, Ham, or Sausage
-        $1.00</li>
-        <li>Add Turkey Bacon, Turkey Sausage or Beef Sausage
-        $1.50</li>
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>ONE EGG ON A ROLL</span>
+          <span className='item-price'>$1.75</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Each Additional Egg</span>
+          <span className='item-price'>$0.50</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Add Cheese</span>
+          <span className='item-price'>$0.50</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Add Bacon, Ham, or Sausage</span>
+          <span className='item-price'>$1.00</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Add Turkey Bacon, Turkey Sausage or Beef Sausage</span>
+          <span className='item-price'>$1.50</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'></span>
+          <span className='item-price'></span>
+        </div>
+      </div>
 
       <h1>BREAKFAST PLATTER</h1>
       <h6>$1.00 EXTRA FOR EGGWHITE</h6>
-      <ul>
-        <li>TWO EGGS WITH HOME FRIES & TOAST
-        $4.95</li>
-        <li>Add Cheese
-        $0.50</li>
-        <li>Add Bacon, Ham or Sausage
-        $1.00</li>
-        <li>Add Turkey Bacon, Turkey Sausage or Beef Sausage
-        $1.50</li>
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>TWO EGGS WITH HOME FRIES & TOAST</span>
+          <span className='item-price'>$4.95</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Add Cheese</span>
+          <span className='item-price'>$0.50</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Add Bacon, Ham or Sausage</span>
+          <span className='item-price'>$1.00</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>Add Turkey Bacon, Turkey Sausage or Beef Sausage</span>
+          <span className='item-price'>$1.50</span>
+        </div>
+      </div>
 
       <h1>FRENCH TOAST & PANCAKES</h1>
-      <ul>
-        <li>FRENCH TOAST
-        $3.95</li>
-        <li>PANCAKES
-        $3.95</li>
-        <li>PANCAKES WITH FRUITS
-        $4.95</li>
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>FRENCH TOAST</span>
+          <span className='item-price'>$3.95</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>PANCAKES</span>
+          <span className='item-price'>$3.95</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>PANCAKES WITH FRUITS</span>
+          <span className='item-price'>$4.95</span>
+        </div>
+      </div>
 
       <h1>OMELETTE PLATTERS</h1>
       <h6>(Served with Home Fries & Toast)</h6>
-      <ul>
-        <li>WESTERN OMELETTE
-        Ham, Onion, Bell Pepper
-        $4.99</li>
-        <li>GREEK OMELETTE
-        Feta Cheese, Tomatoes
-        $4.49</li>
-        <li>CALIFORNIA OMELETTE
-        Turkey, Avocado, Swiss Cheese, Tomatoes
-        $6.99</li>
-        <li>SPINACH OMELETTE
-        Baby Spinach, Mushrooms, Onions, Swiss Cheese
-        $5.49</li>
-        <li>GARDEN OMELETTE
-        Broccoli, Tomatoes, Mushrooms, Cheddar Cheese
-        $5.49</li>
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>WESTERN OMELETTE<br/>
+          Ham, Onion, Bell Pepper</span>
+          <span className='item-price'>$4.99</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>GREEK OMELETTE<br/>
+          Feta Cheese, Tomatoes</span>
+          <span className='item-price'>$4.49</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>CALIFORNIA OMELETTE<br/>
+          Turkey, Avocado, Swiss Cheese, Tomatoes</span>
+          <span className='item-price'>$6.99</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>SPINACH OMELETTE<br/>
+          Baby Spinach, Mushrooms, Onions, Swiss Cheese</span>
+          <span className='item-price'>$5.49</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>GARDEN OMELETTE<br/>
+          Broccoli, Tomatoes, Mushrooms, Cheddar Cheese</span>
+          <span className='item-price'>$5.49</span>
+        </div>
+      </div>
 
       <h1>OATMEAL</h1>
       <h6>(Water, Whole Milk, Skim Milk, Almond Milk, Coconut Milk)</h6>
-      <ul>
-        <li>SMALL (12 OZ.)
-        Topped w/Raisins, Brown Sugar, Cinnamon
-        $2.75</li>
-        <li>LARGE (16OZ.)
-        Topped w/Raisins, Brown Sugar, Cinnamon
-        $3.75</li>
-        <li>EACH ADDITIONAL TOPPING
-        Granola, Berries, Banana, Honey, Walnuts, Almonds
-        $0.50</li>
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>SMALL (12 OZ.)<br/>
+          Topped w/Raisins, Brown Sugar, Cinnamon</span>
+          <span className='item-price'>$2.75</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>LARGE (16OZ.)<br/>
+          Topped w/Raisins, Brown Sugar, Cinnamon</span>
+          <span className='item-price'>$3.75</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'>EACH ADDITIONAL TOPPING<br/>
+          Granola, Berries, Banana, Honey, Walnuts, Almonds</span>
+          <span className='item-price'>$0.50</span>
+        </div>
+      </div>
     </div>
   )
 }

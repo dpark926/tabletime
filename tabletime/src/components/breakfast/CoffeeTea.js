@@ -1,54 +1,59 @@
 import React from 'react';
+import '../../styles/EachMenu.css'
 
 function CoffeeTea () {
 
   return (
     <div>
       <h1>COFFEE & TEA</h1>
-      <div>
-        <div>
-          <div>100% COLOMBIAN COFFEE</div>
-          <div>$1.50 / $2.00</div>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span className='item-name'>100% COLOMBIAN COFFEE</span>
+          <span className='item-price'>$1.50 / $2.00</span>
         </div>
-        <div>
-          <div>HAZELNUT COFFEE</div>
-          <div>$1.75 / $2.25</div>
+        <div className='item-box'>
+          <span className='item-name'>HAZELNUT COFFEE</span>
+          <span className='item-price'>$1.75 / $2.25</span>
         </div>
-        <div>
-          <div>LIPTON TEA</div>
-          <div>$1.50 / $2.00</div>
+        <div className='item-box'>
+          <span className='item-name'>LIPTON TEA</span>
+          <span className='item-price'>$1.50 / $2.00</span>
         </div>
-        <div>
-          <div>HERBAL TEA</div>
-          <div>$1.75 / $2.25</div>
+        <div className='item-box'>
+          <span className='item-name'>HERBAL TEA</span>
+          <span className='item-price'>$1.75 / $2.25</span>
         </div>
-        <div>
-          <div>HOT CHOCOLATE (w/steamed milk)</div>
-          <div>$2.25 / $3.00</div>
+        <div className='item-box'>
+          <span className='item-name'>HOT CHOCOLATE (w/steamed milk)</span>
+          <span className='item-price'>$2.25 / $3.00</span>
         </div>
-        <div>
-          <div>CAPPUCCINO</div>
-          <div>$2.95 / $3.95</div>
+        <div className='item-box'>
+          <span className='item-name'>CAPPUCCINO</span>
+          <span className='item-price'>$2.95 / $3.95</span>
         </div>
-        <div>
-          <div>CAFE LATTE</div>
-          <div>$2.95 / $3.95</div>
+        <div className='item-box'>
+          <span className='item-name'>CAFE LATTE</span>
+          <span className='item-price'>$2.95 / $3.95</span>
         </div>
-        <div>
-          <div>ESPRESSO</div>
-          <div>$2.00 (single) / $3.00 (double)</div>
+        <div className='item-box'>
+          <span className='item-name'>ESPRESSO</span>
+          <span className='item-price'>$2.00 (single) / $3.00 (double)</span>
         </div>
-        <div>
-          <div>ICED COFFEE OR TEA</div>
-          <div>$2.25 / $3.25</div>
+        <div className='item-box'>
+          <span className='item-name'>ICED COFFEE OR TEA</span>
+          <span className='item-price'>$2.25 / $3.25</span>
         </div>
-        <div>
-          <div>ICED CAPPUCCINO</div>
-          <div>$3.25 / $4.25</div>
+        <div className='item-box'>
+          <span className='item-name'>ICED CAPPUCCINO</span>
+          <span className='item-price'>$3.25 / $4.25</span>
         </div>
-        <div>
-          <div>ICED CAFE LATTE</div>
-          <div>$3.25 / $4.25</div>
+        <div className='item-box'>
+          <span className='item-name'>ICED CAFE LATTE</span>
+          <span className='item-price'>$3.25 / $4.25</span>
+        </div>
+        <div className='item-box'>
+          <span className='item-name'></span>
+          <span className='item-price'></span>
         </div>
       </div>
     </div>
