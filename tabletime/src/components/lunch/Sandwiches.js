@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/EachMenu.css'
 
 function Sandwiches () {
   return (
@@ -6,25 +7,35 @@ function Sandwiches () {
       [sandwich]
       <h1>SIGNATURE COLD SANDWICHES</h1>
       <h5>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h5>
-      <div>
-        <h3>ITALIAN</h3>
-        GENOA SALAMI, CAPICOLA, PROVOLONE CHEESE, LETTUCE, TOMATOES, ONIONS, HOT PEPPERS, OIL & VINEGAR
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          <span>ITALIAN<br/>
+          GENOA SALAMI, CAPICOLA, PROVOLONE CHEESE, LETTUCE, TOMATOES, ONIONS, HOT PEPPERS, OIL & VINEGAR</span>
+        </div>
       </div>
       <div>
-        <h3>AMERICAN</h3>
-        VIRGINIA HAM, BLACK FOREST HAM, AMERICAN CHEESE, LETTUCE, TOMATOES, MAYO
+        <div className='item-box'>
+          <span>AMERICAN<br/>
+          VIRGINIA HAM, BLACK FOREST HAM, AMERICAN CHEESE, LETTUCE, TOMATOES, MAYO</span>
+        </div>
       </div>
       <div>
-        <h3>TABLETIME</h3>
-        SMOKED TURKEY, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING
+        <div className='item-box'>
+          <span>TABLETIME<br/>
+          SMOKED TURKEY, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING</span>
+        </div>
       </div>
       <div>
-        <h3>CT</h3>
-        TURKEY BREAST, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING
+        <div className='item-box'>
+          <span>CT<br/>
+          TURKEY BREAST, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING</span>
+        </div>
       </div>
       <div>
-        <h3>GREEN TURKEY</h3>
-        TURKEY BREAST, BRIE CHEESE, SLICED GRANNY SMITH APPLE, LETTUCE, HONEY MUSTARD
+        <div className='item-box'>
+          <span>GREEN TURKEY<br/>
+          TURKEY BREAST, BRIE CHEESE, SLICED GRANNY SMITH APPLE, LETTUCE, HONEY MUSTARD</span>
+        </div>
       </div>
 
       <h1>VEGETARIAN SANDWICHES</h1>

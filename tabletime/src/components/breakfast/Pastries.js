@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/EachMenu.css'
 
 function Pastries () {
 
