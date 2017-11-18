@@ -6,21 +6,35 @@ function Burgers () {
       [burger]
       <h1>BURGERS</h1>
       <h5>(ALL NATURAL 1/2 LB BEEF)</h5>
-      <ul>
-      HAMBURGER
-      $4.50
-      CHEESEBURGER
-      $4.95
-      BACON CHEESE BURGER
-      $5.95
-      TURKEY BURGER
-      $4.95
-      VEGGIE BURGER
-      $4.95
-      CALIFORNIA BURGER
-      $6.95
-      BACON AVOCADO, ALFALFA SPROUTS, LETTUCE, TOMATOES
-      </ul>
+      <div className='menu-wrapper'>
+        <div className='item-box'>
+          HAMBURGER
+          $4.50
+        </div>
+        <div className='item-box'>
+          CHEESEBURGER
+          $4.95
+        </div>
+        <div className='item-box'>
+          BACON CHEESE BURGER
+          $5.95
+        </div>
+        <div className='item-box'>
+          TURKEY BURGER
+          $4.95
+        </div>
+        <div className='item-box'>
+          VEGGIE BURGER
+          $4.95
+        </div>
+        <div className='item-box'>
+          CALIFORNIA BURGER
+          $6.95
+        </div>
+        <div className='item-box'>
+          BACON AVOCADO, ALFALFA SPROUTS, LETTUCE, TOMATOES
+        </div>
+    </div>
 
       ADDITIONALS
       <ul>
