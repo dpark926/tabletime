@@ -1,13 +1,25 @@
 import React from 'react';
-import '../../styles/EachMenu.css'
+import COFFEE_TEA_DATA from '../../data/breakfast/COFFEE_TEA.js';
+import '../../styles/EachMenu.css';
 
 function CoffeeTea () {
+  const data = COFFEE_TEA_DATA.items;
+
+  const coffeeTeaItems = data.map( item => {
+    return (
+      <div className='item-box'>
+        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-price'>{ item.itemPrice }</span>
+      </div>
+    );
+  })
 
   return (
     <div>
-      <h1>COFFEE & TEA</h1>
+      <h1>{ COFFEE_TEA_DATA.heading }</h1>
       <div className='menu-wrapper'>
-        <div className='item-box'>
+        { coffeeTeaItems }
+        {/* <div className='item-box'>
           <span className='item-name'>100% COLOMBIAN COFFEE</span>
           <span className='item-price'>$1.50 / $2.00</span>
         </div>
@@ -54,7 +66,7 @@ function CoffeeTea () {
         <div className='item-box'>
           <span className='item-name'></span>
           <span className='item-price'></span>
-        </div>
+        </div> */}
       </div>
     </div>
   )
