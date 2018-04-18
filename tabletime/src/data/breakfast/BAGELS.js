@@ -1,4 +1,4 @@
-const Bagels = {
+const BAGELS = {
   heading: 'BAGELS',
   subHeading: '',
   items: [
@@ -59,3 +59,5 @@ const Bagels = {
     }
   ]
 }
+
+export default BAGELS;

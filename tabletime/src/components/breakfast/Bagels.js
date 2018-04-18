@@ -1,60 +1,24 @@
 import React from 'react';
-import '../../styles/EachMenu.css'
+import BAGELS_DATA from '../../data/breakfast/BAGELS';
+import '../../styles/EachMenu.css';
 
 function Bagels () {
+  const data = BAGELS_DATA.items;
+
+  const bagelItems = data.map( item => {
+    return (
+      <div className='item-box'>
+        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-price'>{ item.itemPrice }</span>
+      </div>
+    );
+  });
 
   return (
     <div>
-      <h1>BAGELS</h1>
+      <h1>{ BAGELS_DATA.heading }</h1>
       <div className='menu-wrapper'>
-        <div className='item-box'>
-          <span className='item-name'>PLAIN BAGEL</span>
-          <span className='item-price'>$1.00</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>TOASTED PLAIN BAGEL</span>
-          <span className='item-price'>$1.25</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>BUTTER</span>
-          <span className='item-price'>$1.50</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>BUTTER & JELLY</span>
-          <span className='item-price'>$1.75</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>PLAIN CREAM CHEESE</span>
-          <span className='item-price'>$2.00</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>LOW FAT CREAM CHEESE</span>
-          <span className='item-price'>$2.50</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>VEGETABLE CREAM CHEESE</span>
-          <span className='item-price'>$2.50</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>SCALLION CREAM CHEESE</span>
-          <span className='item-price'>$2.50</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>PEANUT BUTTER</span>
-          <span className='item-price'>$2.50</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>LOX SPREAD</span>
-          <span className='item-price'>$2.95</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'>NOVA LOX & CREAM CHEESE W/TOMATOES AND ONIONS</span>
-          <span className='item-price'>$7.25</span>
-        </div>
-        <div className='item-box'>
-          <span className='item-name'></span>
-          <span className='item-price'></span>
-        </div>
+        { bagelItems }
       </div>
     </div>
   )

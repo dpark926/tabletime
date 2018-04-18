@@ -1,4 +1,4 @@
-const CoffeeTeaData = {
+const COFFEE_TEA_DATA = {
   heading: 'COFFEE & TEA',
   subHeading: '',
   items: [
@@ -60,4 +60,4 @@ const CoffeeTeaData = {
   ]
 }
 
-export default CoffeeTeaData;
+export default COFFEE_TEA_DATA;
