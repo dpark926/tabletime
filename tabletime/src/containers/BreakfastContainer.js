@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import { Link } from 'react-router-dom'
-import '../styles/BreakfastLunch.css'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/BreakfastLunch.css';
 
 class BreakfastContainer extends Component {
   constructor () {
@@ -13,7 +13,7 @@ class BreakfastContainer extends Component {
 
   render = () => {
     return (
-      <div class='breakfast-container'>
+      <div className='breakfast-container'>
         [ breakfast container ]
         <Link to="/breakfast/coffee-tea">
           <div className='breakfast-category'>Coffee & Tea</div>
@@ -32,4 +32,4 @@ class BreakfastContainer extends Component {
   }
 }
 
-export default BreakfastContainer
+export default BreakfastContainer;

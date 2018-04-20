@@ -1,7 +1,5 @@
-import React, {Component} from 'react'
-import { Route, Redirect, Link } from 'react-router-dom'
-import BreakfastContainer from './BreakfastContainer';
-import LunchContainer from './LunchContainer';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import '../styles/Menu.css';
@@ -24,12 +22,6 @@ class MenuContainer extends Component {
         </Link>
         <Header/>
         <Navigation/>
-
-        {/* <Route path="/breakfast-menu" component={BreakfastContainer}/>
-        <Route path="/lunch-menu" component={LunchContainer}/> */}
-
-        {/* <BreakfastContainer/>
-        <LunchContainer/> */}
       </div>
     )
   }

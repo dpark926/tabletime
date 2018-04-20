@@ -1,3 +1,7 @@
+.breakfast-container {
+  border: 2px solid blue;
+}
+
 .breakfast-category {
   display: inline-block;
   margin: 10px;

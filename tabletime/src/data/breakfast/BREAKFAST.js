@@ -1,4 +1,4 @@
-const breakfastSandwiches = {
+const BREAKFAST_SANDWICHES = {
   heading: 'BREAKFAST SANDWICHES',
   subHeading: '$1.00 EXTRA FOR EGGWHITE',
   items: [
@@ -30,7 +30,7 @@ const breakfastSandwiches = {
   ]
 }
 
-const breakfastPlatter = {
+const BREAKFAST_PLATTERS = {
   heading: 'BREAKFAST PLATTER',
   subHeading: '$1.00 EXTRA FOR EGGWHITE',
   items: [
@@ -57,7 +57,7 @@ const breakfastPlatter = {
   ]
 }
 
-const frenchToastPancakes = {
+const FRENCH_TOAST_PANCAKES = {
   heading: '',
   subHeading: '',
   items: [
@@ -79,7 +79,7 @@ const frenchToastPancakes = {
   ]
 }
 
-const omelettePlatter = {
+const OMELETTE_PLATTERS = {
   heading: 'OMELETTE PLATTERS',
   subHeading: '(Served with Home Fries & Toast)',
   items: [
@@ -111,7 +111,7 @@ const omelettePlatter = {
   ]
 }
 
-const oatmeal = {
+const OATMEAL = {
   heading: 'OATMEAL',
   subHeading: '(Water, Whole Milk, Skim Milk, Almond Milk, Coconut Milk)',
   items: [
@@ -132,3 +132,11 @@ const oatmeal = {
     },
   ]
 }
+
+export default {
+  BREAKFAST_SANDWICHES,
+  BREAKFAST_PLATTERS,
+  FRENCH_TOAST_PANCAKES,
+  OMELETTE_PLATTERS,
+  OATMEAL
+};

@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router-dom'
+import { Route } from 'react-router-dom';
 // Containers
-import HeaderContainer from './containers/HeaderContainer.js'
-import BreakfastContainer from './containers/BreakfastContainer.js'
-import LunchContainer from './containers/LunchContainer.js'
+import HeaderContainer from './containers/HeaderContainer.js';
+import BreakfastContainer from './containers/BreakfastContainer.js';
+import LunchContainer from './containers/LunchContainer.js';
 // Components
-import CoffeeTea from './components/breakfast/CoffeeTea.js'
-import Bagels from './components/breakfast/Bagels.js'
-import Breakfast from './components/breakfast/Breakfast.js'
-import Pastries from './components/breakfast/Pastries.js'
-import Sandwiches from './components/lunch/Sandwiches.js'
-import Salads from './components/lunch/Salads.js'
-import Burgers from './components/lunch/Burgers.js'
-import Wraps from './components/lunch/Wraps.js'
-import Quesadillas from './components/lunch/Quesadillas.js'
-import Paninis from './components/lunch/Paninis.js'
-import Asian from './components/lunch/Asian.js'
+import CoffeeTea from './components/breakfast/CoffeeTea.js';
+import Bagels from './components/breakfast/Bagels.js';
+import Breakfast from './components/breakfast/Breakfast.js';
+import Pastries from './components/breakfast/Pastries.js';
+import Sandwiches from './components/lunch/Sandwiches.js';
+import Salads from './components/lunch/Salads.js';
+import Burgers from './components/lunch/Burgers.js';
+import Wraps from './components/lunch/Wraps.js';
+import Quesadillas from './components/lunch/Quesadillas.js';
+import Paninis from './components/lunch/Paninis.js';
+import Asian from './components/lunch/Asian.js';
 // Styles
 import './App.css';
 

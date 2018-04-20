@@ -1,4 +1,4 @@
-const pastries = {
+const PASTRIES = {
   heading: 'PASTRIES',
   subHeading: '',
   items: [
@@ -14,3 +14,5 @@ const pastries = {
     },
   ]
 }
+
+export default PASTRIES;
