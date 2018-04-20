@@ -4,14 +4,14 @@ import '../styles/Header.css';
 
 function Navigation () {
   return (
-    <div className='navigation'>
+    <nav className='navigation'>
       <Link to="/breakfast">
-        <div className='breakfast-lunch-link'>Breakfast</div>
+        <div className='breakfast-lunch-link'>BREAKFAST MENU</div>
       </Link>
       <Link to="/lunch">
-        <div className='breakfast-lunch-link'>Lunch</div>
+        <div className='breakfast-lunch-link'>LUNCH MENU</div>
       </Link>
-    </div>
+    </nav>
   )
 }
 

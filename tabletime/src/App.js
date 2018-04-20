@@ -25,21 +25,23 @@ class App extends Component {
       <div className="App">
         <HeaderContainer/>
 
-        <Route path="/breakfast" component={BreakfastContainer}/>
-        <Route path="/lunch" component={LunchContainer}/>
+        <main>
+          <Route path="/breakfast" component={BreakfastContainer}/>
+          <Route path="/lunch" component={LunchContainer}/>
 
-        <Route path="/breakfast/coffee-tea" component={CoffeeTea}/>
-        <Route path="/breakfast/bagels" component={Bagels}/>
-        <Route path="/breakfast/breakfast" component={Breakfast}/>
-        <Route path="/breakfast/pastries" component={Pastries}/>
+          <Route path="/breakfast/coffee-tea" component={CoffeeTea}/>
+          <Route path="/breakfast/bagels" component={Bagels}/>
+          <Route path="/breakfast/breakfast" component={Breakfast}/>
+          <Route path="/breakfast/pastries" component={Pastries}/>
 
-        <Route path="/lunch/sandwiches" component={Sandwiches}/>
-        <Route path="/lunch/salads" component={Salads}/>
-        <Route path="/lunch/burgers" component={Burgers}/>
-        <Route path="/lunch/wraps" component={Wraps}/>
-        <Route path="/lunch/quesadillas" component={Quesadillas}/>
-        <Route path="/lunch/paninis" component={Paninis}/>
-        <Route path="/lunch/asian" component={Asian}/>
+          <Route path="/lunch/sandwiches" component={Sandwiches}/>
+          <Route path="/lunch/salads" component={Salads}/>
+          <Route path="/lunch/burgers" component={Burgers}/>
+          <Route path="/lunch/wraps" component={Wraps}/>
+          <Route path="/lunch/quesadillas" component={Quesadillas}/>
+          <Route path="/lunch/paninis" component={Paninis}/>
+          <Route path="/lunch/asian" component={Asian}/>
+        </main>
       </div>
     );
   }

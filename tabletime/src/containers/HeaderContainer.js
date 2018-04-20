@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import '../styles/Menu.css';
 import '../styles/HeaderContainer.css';
+import logo from '../styles/imgs/tabletime-black.png';
 
 class MenuContainer extends Component {
   constructor () {
@@ -16,13 +17,15 @@ class MenuContainer extends Component {
 
   render = () => {
     return (
-      <div className='header-container'>
+      <header className='header-container'>
         <Link to="/">
-          <div>[ tabletime logo ]</div>
+          <div className='header-logo'>
+            <img src={ logo }></img>
+          </div>
         </Link>
         <Header/>
         <Navigation/>
-      </div>
+      </header>
     )
   }
 }

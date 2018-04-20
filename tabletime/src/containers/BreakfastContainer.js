@@ -14,18 +14,18 @@ class BreakfastContainer extends Component {
   render = () => {
     return (
       <div className='breakfast-container'>
-        [ breakfast container ]
+        {/* [ breakfast container ] */}
         <Link to="/breakfast/coffee-tea">
-          <div className='breakfast-category'>Coffee & Tea</div>
+          <div className='breakfast-category'>COFFEE & TEA</div>
         </Link>
         <Link to="/breakfast/bagels">
-          <div className='breakfast-category'>Bagels</div>
+          <div className='breakfast-category'>BAGELS</div>
         </Link>
         <Link to="/breakfast/breakfast">
-          <div className='breakfast-category'>Breakfast</div>
+          <div className='breakfast-category'>BREAKFAST</div>
         </Link>
         <Link to="/breakfast/pastries">
-          <div className='breakfast-category'>Pastries</div>
+          <div className='breakfast-category'>PASTRIES</div>
         </Link>
       </div>
     )

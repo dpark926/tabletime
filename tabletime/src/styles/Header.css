@@ -1,8 +1,8 @@
 .header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .header-each {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 10px 20px;
 }

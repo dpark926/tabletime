@@ -12,7 +12,8 @@ function Breakfast () {
   const breakfastSandwichItems = breakfastSandwichData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-name'>{ item.itemName }</span><br/>
+        <span>{ item.itemDescription }</span>
         <span className='item-price'>{ item.itemPrice }</span>
       </div>
     );
@@ -21,7 +22,8 @@ function Breakfast () {
   const breakfastPlatterItems = breakfastPlatterData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-name'>{ item.itemName }</span><br/>
+        <span>{ item.itemDescription }</span>
         <span className='item-price'>{ item.itemPrice }</span>
       </div>
     );
@@ -30,7 +32,8 @@ function Breakfast () {
   const frenchToastPancakesItems = frenchToastData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-name'>{ item.itemName }</span><br/>
+        <span>{ item.itemDescription }</span>
         <span className='item-price'>{ item.itemPrice }</span>
       </div>
     );
@@ -39,7 +42,8 @@ function Breakfast () {
   const omelettePlatterItems = omeletteData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-name'>{ item.itemName }</span><br/>
+        <span>{ item.itemDescription }</span>
         <span className='item-price'>{ item.itemPrice }</span>
       </div>
     );
@@ -48,7 +52,8 @@ function Breakfast () {
   const oatmealItems = oatmealData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span>
+        <span className='item-name'>{ item.itemName }</span><br/>
+        <span>{ item.itemDescription }</span>
         <span className='item-price'>{ item.itemPrice }</span>
       </div>
     );

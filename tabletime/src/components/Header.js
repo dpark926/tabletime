@@ -5,8 +5,8 @@ function Header () {
   return (
     <div className='header'>
       <div className='header-each'>20 EAST 42ND ST</div>
-      <div className='header-each'>TABLETIMENYC@GMAIL.COM</div>
       <div className='header-each'>(212) 682-4242</div>
+      <div className='header-each'>TABLETIMENYC@GMAIL.COM</div>
     </div>
   )
 }
