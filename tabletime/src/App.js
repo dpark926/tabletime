@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Redirect } from 'react-router-dom'
-import logo from './logo.svg';
-import './App.css';
-import MenuContainer from './containers/MenuContainer.js'
+// Containers
+import HeaderContainer from './containers/HeaderContainer.js'
 import BreakfastContainer from './containers/BreakfastContainer.js'
 import LunchContainer from './containers/LunchContainer.js'
+// Components
 import CoffeeTea from './components/breakfast/CoffeeTea.js'
 import Bagels from './components/breakfast/Bagels.js'
 import Breakfast from './components/breakfast/Breakfast.js'
@@ -16,12 +16,14 @@ import Wraps from './components/lunch/Wraps.js'
 import Quesadillas from './components/lunch/Quesadillas.js'
 import Paninis from './components/lunch/Paninis.js'
 import Asian from './components/lunch/Asian.js'
+// Styles
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MenuContainer/>
+        <HeaderContainer/>
 
         <Route path="/breakfast" component={BreakfastContainer}/>
         <Route path="/lunch" component={LunchContainer}/>

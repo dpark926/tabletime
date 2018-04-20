@@ -28,10 +28,6 @@ function Breakfast () {
           <span className='item-name'>Add Turkey Bacon, Turkey Sausage or Beef Sausage</span>
           <span className='item-price'>$1.50</span>
         </div>
-        <div className='item-box'>
-          <span className='item-name'></span>
-          <span className='item-price'></span>
-        </div>
       </div>
 
       <h1>BREAKFAST PLATTER</h1>

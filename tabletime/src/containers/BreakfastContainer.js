@@ -13,7 +13,7 @@ class BreakfastContainer extends Component {
 
   render = () => {
     return (
-      <div>
+      <div class='breakfast-container'>
         [ breakfast container ]
         <Link to="/breakfast/coffee-tea">
           <div className='breakfast-category'>Coffee & Tea</div>

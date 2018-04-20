@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import { Link } from 'react-router-dom'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class LunchContainer extends Component {
   constructor () {
@@ -12,7 +12,7 @@ class LunchContainer extends Component {
 
   render = () => {
     return (
-      <div>
+      <div className='lunch-container'>
         [ lunch container ]
         <Link to="/lunch/sandwiches">
           <div className='lunch-category'>Sandwiches</div>
