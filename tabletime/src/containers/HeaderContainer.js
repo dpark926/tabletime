@@ -18,11 +18,11 @@ class MenuContainer extends Component {
   render = () => {
     return (
       <header className='header-container'>
-        <Link to="/">
-          <div className='header-logo'>
+        <div className='header-logo'>
+          <Link to="/">
             <img src={ logo }></img>
-          </div>
-        </Link>
+          </Link>
+        </div>
         <Header/>
         <Navigation/>
       </header>

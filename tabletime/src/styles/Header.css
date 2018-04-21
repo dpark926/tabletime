@@ -1,8 +1,7 @@
 .header {
-  /* border: 1px solid red; */
+  font-size: 1.125em;
 }
 
 .header-each {
-  /* display: inline-block; */
   margin: 10px 20px;
 }

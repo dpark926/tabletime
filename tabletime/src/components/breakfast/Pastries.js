@@ -9,7 +9,7 @@ function Pastries () {
     return (
       <div className='item-box'>
         <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span><br/>
+          <span className='item-name'>{ item.itemName }</span>
           <span className='item-description'>{ item.itemDescription }</span>
         </div>
         <div className='item-right'>
