@@ -1,37 +1,42 @@
 .menu-wrapper {
-  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-box {
-  /*border: 1px solid red;*/
-  margin: 10px 20px;
-  display: inline-block;
-  width: 330px;
-  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.item-left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
 }
 
 .item-name {
-  display: inline-block;
-  vertical-align: top;
-  float: left;
-  text-align: left;
-  width: 70%;
-  /*border: 1px solid green;*/
+  font-size: 1.125em;
 }
 
-/*this is not needed yet*/
-.item-detail {
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  width: 70%;
-  /*border: 1px solid green;*/
+.item-description {
+  margin-top: 5px;
+}
+
+.item-right {
+  flex-grow: 1;
+  text-align: right;
+  margin-left: 10px;
+  font-size: 1.125em;
+  min-width: 30%;
 }
 
 .item-price {
-  display: inline-block;
-  vertical-align: top;
+  /* flex-grow: 1;
   text-align: right;
-  width: 30%;
-  /*border: 1px solid green;*/
+  margin-left: 10px;
+  font-size: 1.125em;
+  border: 1px solid red; */
 }

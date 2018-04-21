@@ -8,8 +8,13 @@ function CoffeeTea () {
   const coffeeTeaItems = data.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span>
-        <span className='item-price'>{ item.itemPrice }</span>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
       </div>
     );
   });

@@ -15,17 +15,17 @@ class BreakfastContainer extends Component {
     return (
       <div className='breakfast-container'>
         {/* [ breakfast container ] */}
-        <Link to="/breakfast/coffee-tea">
-          <div className='breakfast-category'>COFFEE & TEA</div>
+        <Link to="/breakfast/coffee-tea" className='breakfast-category'>
+          <div>COFFEE & TEA</div>
         </Link>
-        <Link to="/breakfast/bagels">
-          <div className='breakfast-category'>BAGELS</div>
+        <Link to="/breakfast/bagels" className='breakfast-category'>
+          <div>BAGELS</div>
         </Link>
-        <Link to="/breakfast/breakfast">
-          <div className='breakfast-category'>BREAKFAST</div>
+        <Link to="/breakfast/breakfast" className='breakfast-category'>
+          <div>BREAKFAST</div>
         </Link>
-        <Link to="/breakfast/pastries">
-          <div className='breakfast-category'>PASTRIES</div>
+        <Link to="/breakfast/pastries" className='breakfast-category'>
+          <div>PASTRIES</div>
         </Link>
       </div>
     )

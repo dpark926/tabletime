@@ -12,9 +12,13 @@ function Breakfast () {
   const breakfastSandwichItems = breakfastSandwichData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span><br/>
-        <span>{ item.itemDescription }</span>
-        <span className='item-price'>{ item.itemPrice }</span>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
       </div>
     );
   });
@@ -22,9 +26,13 @@ function Breakfast () {
   const breakfastPlatterItems = breakfastPlatterData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span><br/>
-        <span>{ item.itemDescription }</span>
-        <span className='item-price'>{ item.itemPrice }</span>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
       </div>
     );
   });
@@ -32,9 +40,13 @@ function Breakfast () {
   const frenchToastPancakesItems = frenchToastData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span><br/>
-        <span>{ item.itemDescription }</span>
-        <span className='item-price'>{ item.itemPrice }</span>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
       </div>
     );
   });
@@ -42,9 +54,13 @@ function Breakfast () {
   const omelettePlatterItems = omeletteData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span><br/>
-        <span>{ item.itemDescription }</span>
-        <span className='item-price'>{ item.itemPrice }</span>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
       </div>
     );
   });
@@ -52,9 +68,13 @@ function Breakfast () {
   const oatmealItems = oatmealData.map( item => {
     return (
       <div className='item-box'>
-        <span className='item-name'>{ item.itemName }</span><br/>
-        <span>{ item.itemDescription }</span>
-        <span className='item-price'>{ item.itemPrice }</span>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
       </div>
     );
   });
@@ -63,14 +83,14 @@ function Breakfast () {
     <div>
       <div>
         <h1>BREAKFAST SANDWICHES</h1>
-        <h6>$1.00 EXTRA FOR EGGWHITE</h6>
+        <h4>$1.00 EXTRA FOR EGGWHITE</h4>
         <div className='menu-wrapper'>
           { breakfastSandwichItems }
         </div>
       </div>
       <div>
         <h1>BREAKFAST PLATTER</h1>
-        <h6>$1.00 EXTRA FOR EGGWHITE</h6>
+        <h4>$1.00 EXTRA FOR EGGWHITE</h4>
         <div className='menu-wrapper'>
           { breakfastPlatterItems }
         </div>
@@ -83,7 +103,7 @@ function Breakfast () {
 
       <div>
         <h1>OMELETTE PLATTERS</h1>
-        <h6>(Served with Home Fries & Toast)</h6>
+        <h4>(Served with Home Fries & Toast)</h4>
         <div className='menu-wrapper'>
         </div>
         { omelettePlatterItems }
@@ -91,7 +111,7 @@ function Breakfast () {
 
       <div>
         <h1>OATMEAL</h1>
-        <h6>(Water, Whole Milk, Skim Milk, Almond Milk, Coconut Milk)</h6>
+        <h4>(Water, Whole Milk, Skim Milk, Almond Milk, Coconut Milk)</h4>
         <div className='menu-wrapper'>
         </div>
         { oatmealItems }
