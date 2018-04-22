@@ -13,29 +13,27 @@ class LunchContainer extends Component {
   render = () => {
     return (
       <div className='lunch-container'>
-        [ lunch container ]
-        <Link to="/lunch/sandwiches">
-          <div className='lunch-category'>SANDWICHES</div>
+        <Link to="/lunch/sandwiches" className='lunch-category'>
+          <div>SANDWICHES</div>
         </Link>
-        <Link to="/lunch/salads">
-          <div className='lunch-category'>SALADS</div>
+        <Link to="/lunch/salads" className='lunch-category'>
+          <div>SALADS</div>
         </Link>
-        <Link to="/lunch/burgers">
-          <div className='lunch-category'>BURGERS</div>
+        <Link to="/lunch/burgers" className='lunch-category'>
+          <div>BURGERS</div>
         </Link>
-        <Link to="/lunch/quesadillas">
-          <div className='lunch-category'>QUESADILLAS</div>
+        <Link to="/lunch/quesadillas" className='lunch-category'>
+          <div>QUESADILLAS</div>
         </Link>
-        <Link to="/lunch/wraps">
-          <div className='lunch-category'>WRAPS</div>
+        <Link to="/lunch/wraps" className='lunch-category'>
+          <div>WRAPS</div>
         </Link>
-        <Link to="/lunch/paninis">
-          <div className='lunch-category'>PANINIS</div>
+        <Link to="/lunch/paninis" className='lunch-category'>
+          <div>PANINIS</div>
         </Link>
-        <Link to="/lunch/asian">
-          <div className='lunch-category'>ASIAN</div>
+        <Link to="/lunch/asian" className='lunch-category'>
+          <div>ASIAN</div>
         </Link>
-
       </div>
     )
   }

@@ -1,4 +1,4 @@
-const homestyleSalads = {
+const HOMESTYLE_SALADS = {
   heading: 'HOMESTYLE SALADS',
   subHeading: '',
   items: [
@@ -29,7 +29,7 @@ const homestyleSalads = {
   ]
 }
 
-const customSalads = {
+const CUSTOM_SALADS = {
   heading: 'CUSTOM SALADS',
   subHeading: 'SMALL $7.95 / LARGE $8.95',
   items: [
@@ -54,4 +54,9 @@ const customSalads = {
     //   BLUE CHEESE, RUSSIAN, CREAMY ITALIAN, FRENCH, HOUSE CAESAR, HONEY DIJON, LOW FAT HONEY MUSTARD, LIT ITALIAN, BALSAMIC VINAIGRETTE, ASIAN SESAME GINGER, CLASSIC RANCH, LITE RANCH, RASPBERRY VINAIGRETTE, BALSAMIC VINEGAR, LEMON JUICE, OLIVE OIL, RED WINE VINEGAR
     // },
   ]
+}
+
+export default {
+  HOMESTYLE_SALADS,
+  CUSTOM_SALADS
 }

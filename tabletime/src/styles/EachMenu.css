@@ -42,3 +42,10 @@
   font-size: 1.125em;
   border: 1px solid red; */
 }
+
+.lunch-item-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -28,7 +28,22 @@
    padding-left: 10px;
  } */
 
-.lunch-category {
-  display: inline-block;
-  margin: 10px;
-}
+ .lunch-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 1.125em;
+   /* border-bottom: 1px solid black; */
+ }
+
+ .lunch-category {
+   flex-grow: 1;
+   /* flex-basis: 45%; */
+   text-decoration: none;
+   color: black;
+   line-height: 2;
+   /* border: 1px solid red; */
+  }

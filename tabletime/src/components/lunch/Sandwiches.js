@@ -1,39 +1,90 @@
 import React from 'react';
-import '../../styles/EachMenu.css'
+import SANDWICHES_DATA from '../../data/lunch/SANDWICHES';
+import '../../styles/EachMenu.css';
 
 function Sandwiches () {
+  const signatureColdSandwichesData = SANDWICHES_DATA.SIGNATURE_COLD_SANDWICHES.items;
+  const vegetarianSandwichesData = SANDWICHES_DATA.VEGETARIAN_SANDWICHES.items;
+  const signatureHotSandwichesData = SANDWICHES_DATA.SIGNATURE_HOT_SANDWICHES.items;
+  const hotSandwichesData = SANDWICHES_DATA.HOT_SANDWICHES.items;
+
+  const signatureColdSandwichItems = signatureColdSandwichesData.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
+  const vegetarianSandwichItems = vegetarianSandwichesData.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
+  const signatureHotSandwichItems = signatureHotSandwichesData.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
+  const hotSandwichItems = hotSandwichesData.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
   return (
     <div>
-      [sandwich]
       <h1>SIGNATURE COLD SANDWICHES</h1>
-      <h5>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h5>
+      <h4>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h4>
       <div className='menu-wrapper'>
-        <div className='item-box'>
-          <span>ITALIAN<br/>
-          GENOA SALAMI, CAPICOLA, PROVOLONE CHEESE, LETTUCE, TOMATOES, ONIONS, HOT PEPPERS, OIL & VINEGAR</span>
-        </div>
-        <div className='item-box'>
-          <span>AMERICAN<br/>
-          VIRGINIA HAM, BLACK FOREST HAM, AMERICAN CHEESE, LETTUCE, TOMATOES, MAYO</span>
-        </div>
-        <div className='item-box'>
-          <span>TABLETIME<br/>
-          SMOKED TURKEY, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING</span>
-        </div>
-        <div className='item-box'>
-          <span>CT<br/>
-          TURKEY BREAST, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING</span>
-        </div>
-        <div className='item-box'>
-          <span>GREEN TURKEY<br/>
-          TURKEY BREAST, BRIE CHEESE, SLICED GRANNY SMITH APPLE, LETTUCE, HONEY MUSTARD</span>
-        </div>
+        { signatureColdSandwichItems }
       </div>
 
       <h1>VEGETARIAN SANDWICHES</h1>
-      <h5>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h5>
+      <h4>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h4>
       <div className='menu-wrapper'>
-        <div className='item-box'>
+        { vegetarianSandwichItems }
+        {/* <div className='item-box'>
           MOZZARELLA DELIGHT<br/>
           FRESH MOZZARELLA CHEESE ROASTED RED PEPPERS, TOMATO, BASIL, ITALIAN DRESSING
         </div>
@@ -48,13 +99,14 @@ function Sandwiches () {
         <div className='item-box'>
           EGGPLANT & ZUCCHINI<br/>
           EGGPLANTS & ZUCCHINI MARINATED WITH BALSAMIC VINEGAR, ROASTED RED PEPPERS, SMOKED MOZZARELLA CHEESE, HONEY DIJON MUSTARD
-        </div>
+        </div> */}
       </div>
 
       <h1>SIGNATURE HOT SANDWICHES</h1>
-      <h5>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h5>
+      <h4>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h4>
       <div className='menu-wrapper'>
-        <div className='item-box'>
+        { signatureHotSandwichItems }
+        {/* <div className='item-box'>
           "T" COMBO<br/>
           HOT PASTRAMI, CORNED BEEF, SWISS CHEESE, COLE SLAW, RUSSIAN DRESSING
         </div>
@@ -73,13 +125,14 @@ function Sandwiches () {
         <div className='item-box'>
           THE AMAZING<br/>
           OVEN ROASTED FRESH TURKEY, MELTED SWISS CHEESE, ROASTED PEPPERS, CRANBERRY SAUCE
-        </div>
+        </div> */}
       </div>
 
       <h1>HOT SANDWICHES</h1>
-      <h5>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h5>
+      <h4>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h4>
       <div className='menu-wrapper'>
-        <div className='item-box'>
+        { hotSandwichItems }
+        {/* <div className='item-box'>
           THE CLASSIC<br/>
           GRILLED CHICKEN BREAST, FRESH MOZZARELLA CHEESE, GRILLED ONIONS, ROMAINE LETTUCE, ROASTED RED PEPPERS
         </div>
@@ -98,7 +151,7 @@ function Sandwiches () {
         <div className='item-box'>
           HONEY BBQ CHICKEN<br/>
           GRILLED CHICKEN BREAST, MELTED FRESH MOZZARELLA CHEESE, GRILLED ONIONS, ROMAINE LETTUCE
-        </div>
+        </div> */}
       </div>
     </div>
   )

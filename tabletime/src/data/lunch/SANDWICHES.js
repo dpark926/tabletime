@@ -1,4 +1,4 @@
-const signatureColdSandwiches = {
+const SIGNATURE_COLD_SANDWICHES = {
   heading: 'SIGNATURE COLD SANDWICHES',
   subHeading: 'SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99',
   items: [
@@ -30,7 +30,7 @@ const signatureColdSandwiches = {
   ]
 }
 
-const vegetarianSandwiches = {
+const VEGETARIAN_SANDWICHES = {
   heading: 'VEGETARIAN SANDWICHES',
   subHeading: 'SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99',
   items: [
@@ -57,7 +57,7 @@ const vegetarianSandwiches = {
   ]
 }
 
-const signatureHotSandwiches = {
+const SIGNATURE_HOT_SANDWICHES = {
   heading: 'SIGNATURE HOT SANDWICHES',
   subHeading: 'SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99',
   items: [
@@ -89,7 +89,7 @@ const signatureHotSandwiches = {
   ]
 }
 
-const hotSandwiches = {
+const HOT_SANDWICHES = {
   heading: 'HOT SANDWICHES',
   subHeading: 'SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99',
   items: [
@@ -119,4 +119,11 @@ const hotSandwiches = {
       itemPrice: '',
     },
   ]
+}
+
+export default {
+  SIGNATURE_COLD_SANDWICHES,
+  VEGETARIAN_SANDWICHES,
+  SIGNATURE_HOT_SANDWICHES,
+  HOT_SANDWICHES
 }

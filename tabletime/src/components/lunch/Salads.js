@@ -1,12 +1,33 @@
 import React from 'react';
+import SALADS_DATA from '../../data/lunch/SALADS';
+import '../../styles/EachMenu.css';
 
 function Salads () {
+  const homestyleSaladData = SALADS_DATA.HOMESTYLE_SALADS.items;
+  const customSaladData = SALADS_DATA.CUSTOM_SALADS.items;
+
+  const homestyleSaladItems = homestyleSaladData.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
   return (
     <div>
-      [salad]
       <h1>HOMESTYLE SALADS</h1>
       <div className='menu-wrapper'>
-        <div className='item-box'>
+        { homestyleSaladItems }
+        {/* <div className='item-box'>
           <span className='item-name'>GARDEN SALAD<br/>
           ROMAINE LETTUCE, TOMATOES, CUCUMBERS, CARROTS, MIXED PEPPERS, BLACK OLIVES, HOUSE DRESSING</span>
           <span className='item-price'>SM $3.95 / LG $6.95</span>
@@ -29,7 +50,7 @@ function Salads () {
           <span className='item-name'>COBB SALAD<br/>
           GRILLED CHICKEN, ROMAINE LETTUCE, TOMATOES, BACON, BOILED EGG, BLUE CHEESE</span>
           <span className='item-price'>LG $7.95</span>
-        </div>
+        </div> */}
       </div>
 
       <h1>CUSTOM SALADS</h1>
