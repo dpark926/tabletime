@@ -1,12 +1,34 @@
 import React from 'react';
+import PANINIS_DATA from '../../data/lunch/PANINIS';
 
 function Paninis () {
+  const data = PANINIS_DATA.items;
+
+  const paniniItems = data.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
   return (
     <div>
-      [panini]
+      {/* [panini] */}
       <h1>PRESSED PANINI SANDWICHES</h1>
-      <h5>$7.45</h5>
-      CHICKEN FAJITA
+      <h4>$7.45</h4>
+      <div className='menu-wrapper'>
+        { paniniItems }
+      </div>
+      {/* CHICKEN FAJITA
       GRILLED CHICKEN, CHEDDAR CHEESE, ROASTED RED PEPPERS, CARAMELIZED ONIONS, SALSA
       CHIPOTLE STEAK
       STEAK, CHEDDAR CHEESE, CHIPOTLE DRESSING
@@ -31,7 +53,7 @@ function Paninis () {
       MONTE CRISTO
       HAM, SMOKED TURKEY, SWISS CHEESE, CHEDDAR CHEESE, LETTUCE, TOMATOES, HONEY MUSTARD
       PHIILLY
-      CHEESE STEAK, PEPPERS AND ONIONS
+      CHEESE STEAK, PEPPERS AND ONIONS */}
     </div>
   )
 }

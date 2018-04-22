@@ -53,7 +53,7 @@ function Burgers () {
         </div> */}
     </div>
 
-      ADDITIONALS
+      {/* ADDITIONALS
       <ul>
       DELUXE BURGER SERVED WITH FRENCH FRIES, LETTUCE, TOMATOES, PICKLE
       $2.00 ADDITIONAL
@@ -63,7 +63,7 @@ function Burgers () {
       $0.50
       ADD BACON
       $1.00
-      </ul>
+      </ul> */}
     </div>
   )
 }

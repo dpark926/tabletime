@@ -8,14 +8,12 @@ function Salads () {
 
   const homestyleSaladItems = homestyleSaladData.map( item => {
     return (
-      <div className='lunch-item-box'>
-        <div>
+      <div className='item-box'>
+        <div className='item-left'>
           <span className='item-name'>{ item.itemName }</span>
-        </div>
-        <div>
           <span className='item-description'>{ item.itemDescription }</span>
         </div>
-        <div>
+        <div className='item-right'>
           <span className='item-price'>{ item.itemPrice }</span>
         </div>
       </div>
@@ -70,7 +68,7 @@ function Salads () {
       </div>
 
       <h1>CUSTOM SALADS</h1>
-      <h5>SMALL $7.95 / LARGE $8.95</h5>
+      <h4>SMALL $7.95 / LARGE $8.95</h4>
       <div className='menu-wrapper'>
         { customSaladItems }
         {/* <div className='item-box'>

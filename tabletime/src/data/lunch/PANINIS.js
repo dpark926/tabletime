@@ -1,4 +1,4 @@
-const paninis = {
+const PANINIS = {
   heading: 'PRESSED PANINI SANDWICHES',
   subHeading: '$7.45',
   items: [
@@ -69,3 +69,5 @@ const paninis = {
     },
   ]
 }
+
+export default PANINIS;

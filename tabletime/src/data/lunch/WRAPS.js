@@ -1,4 +1,4 @@
-const wraps = {
+const WRAPS = {
   heading: 'WRAPS',
   subHeading: '$7.95',
   items: [
@@ -39,3 +39,5 @@ const wraps = {
     },
   ]
 }
+
+export default WRAPS;

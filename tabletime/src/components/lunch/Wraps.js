@@ -1,25 +1,32 @@
 import React from 'react';
+import WRAPS_DATA from '../../data/lunch/WRAPS';
 
 function Wraps () {
+  const data = WRAPS_DATA.items;
+
+  const wrapItems = data.map( item => {
+    return (
+      <div className='lunch-item-box'>
+        <div>
+          <span className='item-name'>{ item.itemName }</span>
+        </div>
+        <div>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
   return (
     <div>
-      [wrap]
       <h1>WRAPS</h1>
-      <h5>$7.95</h5>
-      CHICKEN CAESAR
-      GRILLED CHICKEN, ROMAINE LETTUCE, ROMANO CHEESE, CROUTONS, CAESAR DRESSING
-      CALIFORNIA
-      GRILLED CHICKEN, LETTUCE, TOMATO, AVOCADO, ROASTED RED PEPPERS, RANCH DRESSING
-      CRISPY CHICKEN CUTLET
-      BREADED CHICKEN CUTLET, AVOCADO, TOMATO, BABY SPINACH, CHIPOTLE SPREAD
-      VEGETARIAN
-      GRILLED SQUASH, ROASTED PORTOBELLO MUSHROOMS, ROASTED RED PEPPERS, FRESH MOZZARELLA CHEESE, BALSAMIC VINEGAR
-      TUNA SALAD
-      FRESH TUNA SALAD, LEAF LETTUCE, TOMATOES, SPROUT
-      TURKEY CLUB
-      OVEN ROASTED TURKEY, BACON, LETTUCE, TOMATOES, MAYO
-      BISTRO
-      ROAST BEEF, OVEN ROASTED TURKEY, MUENSTER CHEESE, LETTUCE, TOMATOES, RUSSIAN DRESSING
+      <h4>$7.95</h4>
+      <div className='menu-wrapper'>
+        { wrapItems }
+      </div>
     </div>
   )
 }
