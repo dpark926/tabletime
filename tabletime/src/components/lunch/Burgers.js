@@ -1,13 +1,30 @@
 import React from 'react';
+import BURGERS_DATA from '../../data/lunch/BURGERS';
 
 function Burgers () {
+  const data = BURGERS_DATA.items;
+
+  const burgerItems = data.map( item => {
+    return (
+      <div className='item-box'>
+        <div className='item-left'>
+          <span className='item-name'>{ item.itemName }</span>
+          <span className='item-description'>{ item.itemDescription }</span>
+        </div>
+        <div className='item-right'>
+          <span className='item-price'>{ item.itemPrice }</span>
+        </div>
+      </div>
+    );
+  });
+
   return (
     <div>
-      [burger]
       <h1>BURGERS</h1>
-      <h5>(ALL NATURAL 1/2 LB BEEF)</h5>
+      <h4>(ALL NATURAL 1/2 LB BEEF)</h4>
       <div className='menu-wrapper'>
-        <div className='item-box'>
+        { burgerItems }
+        {/* <div className='item-box'>
           HAMBURGER
           $4.50
         </div>
@@ -33,7 +50,7 @@ function Burgers () {
         </div>
         <div className='item-box'>
           BACON AVOCADO, ALFALFA SPROUTS, LETTUCE, TOMATOES
-        </div>
+        </div> */}
     </div>
 
       ADDITIONALS

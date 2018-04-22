@@ -1,4 +1,4 @@
-const burgers = {
+const BURGERS = {
   heading: 'BURGERS',
   subHeading: '(ALL NATURAL 1/2 LB BEEF)',
   items: [
@@ -39,3 +39,5 @@ const burgers = {
     }
   ]
 }
+
+export default BURGERS;
