@@ -1,7 +1,6 @@
 .breakfast-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -11,6 +10,8 @@
 @media only screen and (min-width: 321px) {
   .breakfast-container {
     font-size: 1.125em;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
@@ -45,7 +46,27 @@
   text-decoration: none;
   color: black;
   line-height: 2;
+  margin-left: 10px;
+  margin-right: 10px;
   /* border: 1px solid red; */
+ }
+
+ @media only screen and (min-width: 321px) {
+   .breakfast-category {
+     flex-basis: 40%;
+   }
+ }
+
+ @media only screen and (min-width: 415px) {
+   .breakfast-category {
+     flex-basis: 30%;
+   }
+ }
+
+ @media only screen and (min-width: 600px) {
+   .breakfast-category {
+     flex-basis: auto;
+   }
  }
 
  /* .breakfast-category:nth-child(odd) {
@@ -60,13 +81,20 @@
 
  .lunch-container {
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
+   flex-direction: column;
    justify-content: center;
    padding-top: 10px;
    padding-bottom: 10px;
    font-size: 1.125em;
    /* border-bottom: 1px solid black; */
+ }
+
+ @media only screen and (min-width: 321px) {
+   .lunch-container {
+     font-size: 1.125em;
+     flex-direction: row;
+     flex-wrap: wrap;
+   }
  }
 
  @media only screen and (min-width: 600px) {
@@ -96,9 +124,28 @@
 
  .lunch-category {
    flex-grow: 1;
-   /* flex-basis: 45%; */
    text-decoration: none;
    color: black;
    line-height: 2;
+   margin-left: 10px;
+   margin-right: 10px;
    /* border: 1px solid red; */
+  }
+
+  @media only screen and (min-width: 321px) {
+    .lunch-category {
+      flex-basis: 40%;
+    }
+  }
+
+  @media only screen and (min-width: 415px) {
+    .lunch-category {
+      flex-basis: 25%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .lunch-category {
+      flex-basis: auto;
+    }
   }
