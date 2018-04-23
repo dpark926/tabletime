@@ -5,3 +5,29 @@
 .breakfast-lunch-link {
   color: white;
 }
+
+.active-nav {
+  border: 2px solid white;
+  padding: 7px;
+}
+
+@media only screen and (min-width: 415px) {
+  .nav-hover:hover {
+    background-color: white;
+    color: black;
+    padding: 7px;
+  }
+}
+
+.active-subnav {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 415px) {
+  .subnav-hover:hover {
+    background-color: black;
+    color: white;
+    padding: 7px;
+  }
+}

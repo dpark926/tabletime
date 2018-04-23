@@ -2,14 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navigation.css';
 
-function Navigation () {
+function Navigation ( props ) {
   return (
     <nav className='navigation'>
-      <Link to="/breakfast" activeStyle={{ color: 'red' }} activeClassName="active">
-        <div className='breakfast-lunch-link'>BREAKFAST MENU</div>
+      <Link to="/breakfast" onClick={props.handleClickedNav}>
+        <div className='breakfast-lunch-link' id='breakfast-menu'>
+          <span className={ 'breakfast-menu' === props.clickedNav ? 'active-nav nav-hover' : 'nav-hover' } id='breakfast-menu'>
+            BREAKFAST MENU
+          </span>
+        </div>
       </Link>
-      <Link to="/lunch" activeStyle={{ color: 'red' }} activeClassName="active">
-        <div className='breakfast-lunch-link'>LUNCH MENU</div>
+      <Link to="/lunch" onClick={props.handleClickedNav}>
+        <div className='breakfast-lunch-link' id='lunch-menu'>
+          <span className={ 'lunch-menu' === props.clickedNav ? 'active-nav nav-hover' : 'nav-hover' } id='lunch-menu'>
+            LUNCH MENU
+          </span>
+        </div>
       </Link>
     </nav>
   )

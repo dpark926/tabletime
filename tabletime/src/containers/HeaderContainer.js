@@ -11,11 +11,18 @@ class MenuContainer extends Component {
     super()
 
     this.state = {
-
+      clickedNav: ''
     }
   }
 
+  handleClickedNav = ( event ) => {
+    this.setState({
+      clickedNav: event.target.id
+    })
+  }
+
   render = () => {
+    console.log(this.state.clickedNav)
     return (
       <header className='header-container'>
         <div className='header-logo'>
@@ -24,7 +31,10 @@ class MenuContainer extends Component {
           </Link>
         </div>
         <Header/>
-        <Navigation/>
+        <Navigation
+          handleClickedNav={this.handleClickedNav}
+          clickedNav={this.state.clickedNav}
+        />
       </header>
     )
   }
