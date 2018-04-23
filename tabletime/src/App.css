@@ -9,15 +9,41 @@
 }
 
 main {
-  margin-left: 10px;
-  margin-right: 10px;
   position: absolute;
   height: 100%;
+  width: 100%;
 }
 
-@media only screen and (min-width: 1200px) {
+/* iPhone6 */
+@media only screen and (min-width: 321px) {
   main {
-    margin: 0;
-    width: 100%;
+  }
+}
+
+/* iPad Mini */
+@media only screen and (min-width: 415px) {
+  main {
+    /* margin: 0; */
+  }
+}
+
+/* iPad */
+@media only screen and (min-width: 601px) {
+  main {
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  main {
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  main {
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  main {
   }
 }

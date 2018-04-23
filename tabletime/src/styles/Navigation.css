@@ -1,7 +1,13 @@
 .navigation {
-  font-size: 1.125em;
-  position: sticky;
+  font-size: 1em;
 }
+
+@media only screen and (min-width: 321px) {
+  .navigation {
+    font-size: 1.125em;
+  }
+}
+
 
 .breakfast-lunch-link {
   color: white;
