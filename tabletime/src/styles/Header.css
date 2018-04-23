@@ -1,5 +1,18 @@
 .header {
-  font-size: 1.125em;
+}
+
+@media only screen and (min-width: 321px) {
+  .header {
+    font-size: 1.125em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .header-each {
