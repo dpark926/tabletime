@@ -19,11 +19,14 @@ function Bagels () {
     );
   });
 
+  const emptyItem = data.length % 2 !== 0 ? <div className='item-box'></div> : null
+
   return (
     <div className='contents'>
       <h1>{ BAGELS_DATA.heading }</h1>
       <div className='menu-wrapper'>
         { bagelItems }
+        { emptyItem }
       </div>
     </div>
   )

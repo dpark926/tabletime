@@ -19,12 +19,15 @@ function CoffeeTea () {
     );
   });
 
+  const emptyItem = data.length % 2 !== 0 ? <div className='item-box'></div> : null
+
   return (
     <div className='contents'>
       <h1>{ COFFEE_TEA_DATA.heading }</h1>
       <div className='menu-wrapper'>
         { coffeeTeaItems }
-       </div>
+        { emptyItem }
+      </div>
     </div>
   );
 }

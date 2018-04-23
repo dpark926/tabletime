@@ -48,6 +48,12 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 700px) {
+  .empty-box {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 701px) {
   .item-box {
     flex-basis: 43%;
