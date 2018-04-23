@@ -81,7 +81,7 @@ function Asian () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>UDON</h1>
       <h4>(SERVED WITH BROCCOLI, SCALLIONS, CARROTS, SEAWEED, YUBU)</h4>
       <h4>SOBA $1.00 EXTRA</h4>

@@ -20,7 +20,7 @@ function Bagels () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>{ BAGELS_DATA.heading }</h1>
       <div className='menu-wrapper'>
         { bagelItems }

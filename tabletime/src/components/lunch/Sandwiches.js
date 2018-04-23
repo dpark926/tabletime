@@ -73,7 +73,7 @@ function Sandwiches () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>SIGNATURE COLD SANDWICHES</h1>
       <h4>SLICED BREAD or ROLL $7.49 / WRAPS or HERO $8.99</h4>
       <div className='menu-wrapper'>

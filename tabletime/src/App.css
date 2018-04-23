@@ -11,4 +11,13 @@
 main {
   margin-left: 10px;
   margin-right: 10px;
+  position: absolute;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    margin: 0;
+    width: 100%;
+  }
 }

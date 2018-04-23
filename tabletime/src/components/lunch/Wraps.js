@@ -21,7 +21,7 @@ function Wraps () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>WRAPS</h1>
       <h4>$7.95</h4>
       <div className='menu-wrapper'>

@@ -37,7 +37,7 @@ function Salads () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>HOMESTYLE SALADS</h1>
       <div className='menu-wrapper'>
         { homestyleSaladItems }

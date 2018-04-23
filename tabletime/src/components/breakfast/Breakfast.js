@@ -80,7 +80,7 @@ function Breakfast () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <div>
         <h1>BREAKFAST SANDWICHES</h1>
         <h4>$1.00 EXTRA FOR EGGWHITE</h4>

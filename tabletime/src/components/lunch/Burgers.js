@@ -19,7 +19,7 @@ function Burgers () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>BURGERS</h1>
       <h4>(ALL NATURAL 1/2 LB BEEF)</h4>
       <div className='menu-wrapper'>

@@ -1,5 +1,6 @@
 .navigation {
   font-size: 1.125em;
+  position: sticky;
 }
 
 .breakfast-lunch-link {

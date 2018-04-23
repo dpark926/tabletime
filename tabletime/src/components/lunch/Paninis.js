@@ -21,7 +21,7 @@ function Paninis () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       {/* [panini] */}
       <h1>PRESSED PANINI SANDWICHES</h1>
       <h4>$7.45</h4>

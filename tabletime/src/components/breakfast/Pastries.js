@@ -20,7 +20,7 @@ function Pastries () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>PASTRIES</h1>
       <div className='menu-wrapper'>
         { pastryItems }

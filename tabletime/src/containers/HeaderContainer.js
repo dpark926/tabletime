@@ -22,7 +22,6 @@ class MenuContainer extends Component {
   }
 
   render = () => {
-    console.log(this.state.clickedNav)
     return (
       <header className='header-container'>
         <div className='header-logo'>

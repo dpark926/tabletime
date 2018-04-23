@@ -20,7 +20,7 @@ function CoffeeTea () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>{ COFFEE_TEA_DATA.heading }</h1>
       <div className='menu-wrapper'>
         { coffeeTeaItems }

@@ -19,7 +19,7 @@ function Quesadillas () {
   });
 
   return (
-    <div>
+    <div className='contents'>
       <h1>QUESADILLAS</h1>
       <h4></h4>
       <div className='menu-wrapper'>
