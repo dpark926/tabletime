@@ -98,6 +98,12 @@
   }
 }
 
+@media only screen and (min-width: 321px) {
+  .item-right {
+    font-size: 1.125em;
+  }
+}
+
 .item-price {
   /* flex-grow: 1;
   text-align: right;

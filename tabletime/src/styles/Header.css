@@ -1,9 +1,11 @@
 .header {
+  margin-bottom: 1em;
 }
 
 @media only screen and (min-width: 321px) {
   .header {
     font-size: 1.125em;
+    margin-bottom: 0.25em;
   }
 }
 
