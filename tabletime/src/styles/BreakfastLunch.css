@@ -8,6 +8,10 @@
   margin-left: 10px;
   margin-right: 10px;
   border-bottom: 1px solid gray;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 @media only screen and (min-width: 321px) {
@@ -80,6 +84,10 @@
  margin-left: 10px;
  margin-right: 10px;
  border-bottom: 1px solid gray;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ background-color: white;
 }
 
 @media only screen and (min-width: 321px) {
