@@ -112,3 +112,11 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 701px) {
+  .lunch-item-box {
+    flex-basis: 43%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
