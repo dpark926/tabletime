@@ -4,7 +4,7 @@ const HOMESTYLE_SALADS = {
   items: [
     {
       itemName: 'GARDEN SALAD',
-      itemDescription: 'ROMAINE LETTUCE, TOMATOES, CUCUMBERS, CARROTS, MIXED PEPPERS, BLACK OLIVES, HOUSE DRESSING',
+      itemDescription: 'Romaine Lettuce, Tomatoes, Cucumbers, Carrots, Mixed Peppers, Black Olives, House Dressing',
       itemPrice: 'SM $3.95 / LG $6.95'
     },
     // {
@@ -13,17 +13,17 @@ const HOMESTYLE_SALADS = {
     // },
     {
       itemName: 'CAESAR SALAD',
-      itemDescription: 'ROMAINE LETTUCE, CROUTON, PARMESAN CHEESE, CAESAR DRESSING',
+      itemDescription: 'Romaine Lettuce, Croutons, Parmesan Cheese, Caesar Dressing',
       itemPrice: 'SM $3.95 / LG $6.95'
     },
     {
       itemName: 'GRILLED CHICKEN CAESAR SALAD',
-      itemDescription: 'GRILLED CHICKEN, ROMAINE LETTUCE, PARMESAN CHEESE, CROUTONS, CAESAR DRESSING',
+      itemDescription: 'Grilled Chicken, Romaine Lettuce, Parmesan Cheese, Croutons, Caesar Dressing',
       itemPrice: 'LG $7.95'
     },
     {
       itemName: 'COBB SALAD',
-      itemDescription: 'GRILLED CHICKEN, ROMAINE LETTUCE, TOMATOES, BACON, BOILED EGG, BLUE CHEESE',
+      itemDescription: 'Grilled Chicken, Romaine Lettuce, Tomatoes, Bacon, Boiled Egg, Blue Cheese',
       itemPrice: 'LG $7.95'
     },
   ]

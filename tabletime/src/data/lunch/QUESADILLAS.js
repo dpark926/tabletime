@@ -4,17 +4,17 @@ const QUESADILLAS = {
   items: [
     {
       itemName: 'CHEESE',
-      itemDescription: 'MONTEREY JACK & CHEDDAR CHEESE, PEPPERS, ONIONS, SLICED CHILIES',
+      itemDescription: 'Monterey Jack & Cheddar Cheese, Peppers, Onions, Sliced Chilies',
       itemPrice: '$6.95'
     },
     {
       itemName: 'GRILLED CHICKEN',
-      itemDescription: 'MONTEREY JACK & CHEDDAR CHEESE, PEPPERS, ONIONS, SLICED CHILIES',
+      itemDescription: 'Monterey Jack & Cheddar Cheese, Peppers, Onions, Sliced Chilies',
       itemPrice: '$7.95'
     },
     {
       itemName: 'GRILLED STEAK',
-      itemDescription: 'MONTEREY JACK & CHEDDAR CHEESE, PEPPERS, ONIONS, SLICED CHILIES',
+      itemDescription: 'Monterey Jack & Cheddar Cheese, Peppers, Onions, Sliced Chilies',
       itemPrice: '$7.95'
     },
   ]

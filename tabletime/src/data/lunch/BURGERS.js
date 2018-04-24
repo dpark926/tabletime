@@ -29,12 +29,12 @@ const BURGERS = {
     },
     {
       itemName: 'CALIFORNIA BURGER',
-      itemDescription: 'BACON AVOCADO, ALFALFA SPROUTS, LETTUCE, TOMATOES',
+      itemDescription: 'Bacon Avodcado, Alfafa Sprouts, Lettuce, Tomatoes',
       itemPrice: '$6.95'
     },
     {
       itemName: 'DELUXE BURGER',
-      itemDescription: 'SERVED WITH FRENCH FRIES, LETTUCE, TOMATOES, PICKLE',
+      itemDescription: 'Served w/French Fries, Lettuce, Tomatoes, Pickle',
       itemPrice: '$2.00 ADDITIONAL'
     },
     {

@@ -4,27 +4,27 @@ const SIGNATURE_COLD_SANDWICHES = {
   items: [
     {
       itemName: 'ITALIAN',
-      itemDescription: 'GENOA SALAMI, CAPICOLA, PROVOLONE CHEESE, LETTUCE, TOMATOES, ONIONS, HOT PEPPERS, OIL & VINEGAR',
+      itemDescription: 'Genoa Salami, Capicola, Provolone Cheese, Lettuce, Tomatoeses, Onions, Hot Peppers, OIL & VINEGAR',
       itemPrice: '',
     },
     {
       itemName: 'AMERICAN',
-      itemDescription: 'VIRGINIA HAM, BLACK FOREST HAM, AMERICAN CHEESE, LETTUCE, TOMATOES, MAYO',
+      itemDescription: 'Virginia Ham, Black Forest Ham, American Cheese, Lettuce, Tomatoeses, Mayo',
       itemPrice: '',
     },
     {
       itemName: 'TABLETIME',
-      itemDescription: 'SMOKED TURKEY, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING',
+      itemDescription: 'Smoked Turkey, Corned Beef, Coleslaw, Swiss Cheese, Russian Dressing',
       itemPrice: '',
     },
     {
       itemName: 'CT',
-      itemDescription: 'TURKEY BREAST, CORNED BEEF, COLESLAW, SWISS CHEESE, RUSSIAN DRESSING',
+      itemDescription: 'Turkey Breast, Corned Beef, Coleslaw, Swiss Cheese, Russian Dressing',
       itemPrice: '',
     },
     {
       itemName: 'GREEN TURKEY',
-      itemDescription: 'TURKEY BREAST, BRIE CHEESE, SLICED GRANNY SMITH APPLE, LETTUCE, HONEY MUSTARD',
+      itemDescription: 'Turkey Breast, Brie Cheese, Sliced Granny Smith Apple, Lettuce, Honey Mustard',
       itemPrice: '',
     },
   ]
@@ -36,22 +36,22 @@ const VEGETARIAN_SANDWICHES = {
   items: [
     {
       itemName: 'MOZZARELLA DELIGHT',
-      itemDescription: 'FRESH MOZZARELLA CHEESE ROASTED RED PEPPERS, TOMATO, BASIL, ITALIAN DRESSING',
+      itemDescription: 'Fresh Mozzarella Cheese, Roasted Red Peppers, Tomatoes, Basil, Italian Dressing',
       itemPrice: ''
     },
     {
       itemName: 'LITE DELIGHTS',
-      itemDescription: 'GRILLED VEGETABLES, GREEN SQUASH, YELLOW SQUASH, EGGPLANT, CARROTS, FRESH MOZZARELLA CHEESE, ROASTED RED PEPPERS, HUMMUS TAHINI SAUCE',
+      itemDescription: 'Grilled Vegetables, Green Squash, Yellow Squash, Eggplant, Carrots, Fresh Mozzarella Cheese, Roasted Red Peppers, Hummus Tahini Sauce',
       itemPrice: ''
     },
     {
       itemName: 'VEGETARIAN SPECIAL',
-      itemDescription: 'AVOCADO, ROMAINE LETTUCE, TOMATOES, CARROTS, CUCUMBERS, ALFAFA SPROUTS, SHREDDED RED CABBAGE, SWEET PEPPERS, HONEY MUSTARD',
+      itemDescription: 'Avocado, Romaine Lettuce, Tomatoes, Carrots, Cucumbers, Alfafa Sprouts, Shredded Red Cabbage, Sweet Peppers, Honey Mustard',
       itemPrice: ''
     },
     {
       itemName: 'EGGPLANT & ZUCCHINI',
-      itemDescription: 'EGGPLANTS & ZUCCHINI MARINATED WITH BALSAMIC VINEGAR, ROASTED RED PEPPERS, SMOKED MOZZARELLA CHEESE, HONEY DIJON MUSTARD',
+      itemDescription: 'Eggplants & Zucchini Marinated w/ Balsalmic Vinegar, Roasted Red Peppers, Smoked Mozzarella Cheese, Hone Dijon Mustard',
       itemPrice: ''
     },
   ]
@@ -63,27 +63,27 @@ const SIGNATURE_HOT_SANDWICHES = {
   items: [
     {
       itemName: '"T" COMBO',
-      itemDescription: 'HOT PASTRAMI, CORNED BEEF, SWISS CHEESE, COLE SLAW, RUSSIAN DRESSING',
+      itemDescription: 'Hot Pastrami, Corned Beef, Swiss Cheese, Cole Slaw, Russian Dressing',
       itemPrice: '',
     },
     {
       itemName: 'THE PHILLY',
-      itemDescription: 'GRILLED PHILLY STEAK, MELTED AMERICAN CHEESE, GRILLED ONIONS AND PEPPERS',
+      itemDescription: 'Grilled Philly Steak, Melted American Cheese, Grilled Onions and Peppers',
       itemPrice: '',
     },
     {
       itemName: 'THE SMOKY',
-      itemDescription: 'SMOKED HAM, SMOKED TURKEY, SWISS CHEESE, COLESLAW, RUSSIAN DRESSING',
+      itemDescription: 'Smoked Ham, Smoked Turkey, Swiss Cheese, Coleslaw, Russian Dressing',
       itemPrice: '',
     },
     {
       itemName: 'THE MAXIMUS',
-      itemDescription: 'GRILLED SMOKED TURKEY, MELTED PEPPER JACK CHEESE, CRISPY BACON, SUNDRIED TOMATO PASTE',
+      itemDescription: 'Grilled Smoked Turkey, Melted Pepper Jack Cheese, Crispy Bacon, Sundried Tomatoes Paste',
       itemPrice: '',
     },
     {
       itemName: 'THE AMAZING',
-      itemDescription: 'OVEN ROASTED FRESH TURKEY, MELTED SWISS CHEESE, ROASTED PEPPERS, CRANBERRY SAUCE',
+      itemDescription: 'Oven Roasted Fresh Turkey, Melted Swiss Cheese, Roasted Peppers, Cranberry Sauce',
       itemPrice: '',
     },
   ]
@@ -95,27 +95,27 @@ const HOT_SANDWICHES = {
   items: [
     {
       itemName: 'THE CLASSIC',
-      itemDescription: 'GRILLED CHICKEN BREAST, FRESH MOZZARELLA CHEESE, GRILLED ONIONS, ROMAINE LETTUCE, ROASTED RED PEPPERS',
+      itemDescription: 'Grilled Chicken Breast, Fresh Mozzarella Cheese, Grilled Onions, Romaine Lettuce, Roasted Red Peppers',
       itemPrice: '',
     },
     {
       itemName: 'THE CHICAVO',
-      itemDescription: 'GRILLED CHICKEN BREAST, AVOCADO, ROASTED RED PEPPERS, MESCLUN, RANCH DRESSING',
+      itemDescription: 'Grilled Chicken Breast, Avocado, Roasted Red Peppers, Mesclun, Ranch Dressing',
       itemPrice: '',
     },
     {
       itemName: 'THE TOBASCO',
-      itemDescription: 'GRILLED CHICKEN BREAST, MELTED FRESH MOZZARELLA CHEESE, GRILLED ONIONS, ROMAINE LETTUCE, HOT PEPPERS, TABASCO SAUCE',
+      itemDescription: 'Grilled Chicken Breast, Melted Fresh Mozzarella Cheese, Grilled Onions, Romaine Lettuce, Hot Peppers, Tabasco Sauce',
       itemPrice: '',
     },
     {
       itemName: 'TERIYAKI CHICKEN',
-      itemDescription: 'GRILLED CHICKEN BREAST, MELTED FRESH MOZZARELLA CHEESE, GRILLED ONIONS, ROMAINE LETTUCE, TOMATO, TERIYAKI SAUCE',
+      itemDescription: 'Grilled Chicken Breast, Melted Fresh Mozzarella Cheese, Grilled Onions, Romaine Lettuce, Tomatoes, Teriyaki Sauce',
       itemPrice: '',
     },
     {
       itemName: 'HONEY BBQ CHICKEN',
-      itemDescription: 'GRILLED CHICKEN BREAST, MELTED FRESH MOZZARELLA CHEESE, GRILLED ONIONS, ROMAINE LETTUCE',
+      itemDescription: 'Grilled Chicken Breast, Melted Fresh Mozzarella Cheese, Grilled Onions, Romaine Lettuce',
       itemPrice: '',
     },
   ]

@@ -4,67 +4,67 @@ const PANINIS = {
   items: [
     {
       itemName: 'CHICKEN FAJITA',
-      itemDescription: 'GRILLED CHICKEN, CHEDDAR CHEESE, ROASTED RED PEPPERS, CARAMELIZED ONIONS, SALSA',
+      itemDescription: 'Grilled Chicken, Cheddar Cheese, Roasted Red Peppers, Caramelized Onions, Salsa',
       itemPrice: '',
     },
     {
       itemName: 'CHIPOTLE STEAK',
-      itemDescription: 'STEAK, CHEDDAR CHEESE, CHIPOTLE DRESSING',
+      itemDescription: 'Steak, Cheddar Cheese, Chipotle Dressing',
       itemPrice: '',
     },
     {
       itemName: 'CHIPOTLE LIME',
-      itemDescription: 'GRILLED CHICKEN, SWISS CHEESE, PICO DE GALLO, CHIPOTLE LIME SAUCE',
+      itemDescription: 'Grilled Chicken, Swiss Cheese, Pico de Gallo, Chipotle Lime Sauce',
       itemPrice: '',
     },
     {
       itemName: 'SANTE FE',
-      itemDescription: 'PEPPER TURKEY, AVOCADO, LETTUCE, TOMATO, PEPPER JACK CHEESE, MAYO',
+      itemDescription: 'Pepper Turkey, Avocado, Lettuce, Tomato, Pepper Jack Cheese, Mayo',
       itemPrice: '',
     },
     {
       itemName: 'CALIFORNIA',
-      itemDescription: 'GRILLED CHICKEN, FRESH MOZZARELLA CHEESE, SUN DRIED TOMATOES, PESTO SAUCE',
+      itemDescription: 'Grilled Chicken, Fresh Mozzarella Cheese, Sun Dried Tomatoes, Pesto Sauce',
       itemPrice: '',
     },
     {
       itemName: 'PACIFIC',
-      itemDescription: 'GRILLED CHICKEN, AVOCADO, BACON, CHEDDAR CHEESE',
+      itemDescription: 'Grilled Chicken, Avocado, Bacon, Cheddar Cheese',
       itemPrice: '',
     },
     {
       itemName: 'BUFFALO CHICKEN',
-      itemDescription: 'BUFFALO GRILLED CHICKEN, PEPPER JACK CHEESE, BLUE CHEESE DRESSING',
+      itemDescription: 'Buffalo Grilled Chicken, Pepper Jack Cheese, Blue Cheese Dressing',
       itemPrice: '',
     },
     {
       itemName: 'MILANO',
-      itemDescription: 'CHICKEN CUTLET, AVOCADO, FRESH MOZZARELLA CHEESE, LETTUCE, TOMATOES, RUSSIAN DRESSING',
+      itemDescription: 'Chicken Cutlet, Avocado, Fresh Mozzarella Cheese, Lettuce, Tomatoes, Russian Dressing',
       itemPrice: '',
     },
     {
       itemName: 'CHICKEN CORDON BLEU',
-      itemDescription: 'CHICKEN CUTLET, HAM, SWISS CHEESE, MAYO',
+      itemDescription: 'Chicken Cutlet, Ham, Swiss Cheese, Mayo',
       itemPrice: '',
     },
     {
       itemName: 'TUSCAN',
-      itemDescription: 'FRESH MOZZARELLA CHEESE, ROASTED RED PEPPERS, FRESH BASIL, TOMATOES, BALSAMIC VINEGAR',
+      itemDescription: 'Fresh Mozzarella Cheese, Roasted Red Peppers, Fresh Basil, Tomatoes, Balsamic Vinegar',
       itemPrice: '',
     },
     {
       itemName: 'RUSSIAN',
-      itemDescription: 'ROAST BEEF, MUENSTER CHEESE, CARAMELIZED ONIONS, LETTUCE, TOMATOES, RUSSIAN DRESSING',
+      itemDescription: 'Roast Beef, Muenster Cheese, Caramelized Onions, Lettuce, Tomatoes, Russian Dressing',
       itemPrice: '',
     },
     {
       itemName: 'MONTE CRISTO',
-      itemDescription: 'HAM, SMOKED TURKEY, SWISS CHEESE, CHEDDAR CHEESE, LETTUCE, TOMATOES, HONEY MUSTARD',
+      itemDescription: 'Ham, Smoked Turkey, Swiss Cheese, Cheddar Cheese, Lettuce, Tomatoes, Honey Mustard',
       itemPrice: '',
     },
     {
       itemName: 'PHIILLY',
-      itemDescription: 'CHEESE STEAK, PEPPERS AND ONIONS',
+      itemDescription: 'Cheese Steak, Pepper and Onions',
       itemPrice: '',
     },
   ]
