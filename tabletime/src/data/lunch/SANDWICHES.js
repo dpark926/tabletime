@@ -4,12 +4,12 @@ const SIGNATURE_COLD_SANDWICHES = {
   items: [
     {
       itemName: 'ITALIAN',
-      itemDescription: 'Genoa Salami, Capicola, Provolone Cheese, Lettuce, Tomatoeses, Onions, Hot Peppers, OIL & VINEGAR',
+      itemDescription: 'Genoa Salami, Capicola, Provolone Cheese, Lettuce, Tomatoes, Onions, Hot Peppers, Oil & Vinegar',
       itemPrice: '',
     },
     {
       itemName: 'AMERICAN',
-      itemDescription: 'Virginia Ham, Black Forest Ham, American Cheese, Lettuce, Tomatoeses, Mayo',
+      itemDescription: 'Virginia Ham, Black Forest Ham, American Cheese, Lettuce, Tomatoes, Mayo',
       itemPrice: '',
     },
     {
@@ -99,7 +99,7 @@ const HOT_SANDWICHES = {
       itemPrice: '',
     },
     {
-      itemName: 'THE CHICAVO',
+      itemName: 'THE CHICAGO',
       itemDescription: 'Grilled Chicken Breast, Avocado, Roasted Red Peppers, Mesclun, Ranch Dressing',
       itemPrice: '',
     },

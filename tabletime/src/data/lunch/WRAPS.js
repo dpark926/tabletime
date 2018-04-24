@@ -3,7 +3,7 @@ const WRAPS = {
   subHeading: '$7.95',
   items: [
     {
-      itemName: 'CHICKEN Caesar',
+      itemName: 'CHICKEN CAESAR',
       itemDescription: 'Grilled Chicken, Romaine Lettuce, Romano Cheese, Croutons, Caesar Dressing',
       itemPrice: '',
     },
