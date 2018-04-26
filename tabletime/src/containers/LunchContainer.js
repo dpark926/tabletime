@@ -11,7 +11,6 @@ class LunchContainer extends Component {
   }
 
   handleClickedSubNav = ( event ) => {
-    console.log(event.target.id)
     this.setState({
       clickedSubNav: event.target.id
     })

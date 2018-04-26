@@ -1,23 +1,12 @@
 import React from 'react';
 import BAGELS_DATA from '../../data/breakfast/BAGELS';
+import MapItems from '../MapItems';
 import '../../styles/EachMenu.css';
 
 function Bagels () {
   const data = BAGELS_DATA.items;
 
-  const bagelItems = data.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
+  const bagelItems = MapItems( data );
 
   const emptyItem = data.length % 2 !== 0 ? <div className='item-box'></div> : null
 

@@ -1,23 +1,12 @@
 import React from 'react';
 import COFFEE_TEA_DATA from '../../data/breakfast/COFFEE_TEA';
+import MapItems from '../MapItems';
 import '../../styles/EachMenu.css';
 
 function CoffeeTea () {
   const data = COFFEE_TEA_DATA.items;
 
-  const coffeeTeaItems = data.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
+  const coffeeTeaItems = MapItems( data );
 
   const emptyItem = data.length % 2 !== 0 ? <div className='item-box'></div> : null
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import BREAKFAST_DATA from '../../data/breakfast/BREAKFAST';
+import MapItems from '../MapItems';
 import '../../styles/EachMenu.css';
 
 function Breakfast () {
@@ -15,75 +16,11 @@ function Breakfast () {
   const emptyItem4 = omeletteData.length % 2 !== 0 ? <div className='item-box empty-box'></div> : null
   const emptyItem5 = oatmealData.length % 2 !== 0 ? <div className='item-box empty-box'></div> : null
 
-  const breakfastSandwichItems = breakfastSandwichData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const breakfastPlatterItems = breakfastPlatterData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const frenchToastPancakesItems = frenchToastData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const omelettePlatterItems = omeletteData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const oatmealItems = oatmealData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
+  const breakfastSandwichItems = MapItems( breakfastSandwichData );
+  const breakfastPlatterItems = MapItems( breakfastPlatterData );
+  const frenchToastPancakesItems = MapItems( frenchToastData );
+  const omelettePlatterItems = MapItems( omeletteData );
+  const oatmealItems = MapItems( oatmealData );
 
   return (
     <div className='contents'>
