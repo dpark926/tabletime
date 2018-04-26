@@ -10,7 +10,7 @@ function Pastries () {
 
   return (
     <div className='contents'>
-      <h1>PASTRIES</h1>
+      <h1>{ PASTRIES_DATA.heading }</h1>
       <div className='menu-wrapper'>
         { pastryItems }
       </div>

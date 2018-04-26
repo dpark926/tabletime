@@ -1,5 +1,6 @@
 import React from 'react';
 import SANDWICHES_DATA from '../../data/lunch/SANDWICHES';
+import MapItems from '../MapItems';
 import '../../styles/EachMenu.css';
 
 function Sandwiches () {

@@ -1,27 +1,16 @@
 import React from 'react';
 import BURGERS_DATA from '../../data/lunch/BURGERS';
+import MapItems from '../MapItems';
 
 function Burgers () {
   const data = BURGERS_DATA.items;
 
-  const burgerItems = data.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
+  const burgerItems = MapItems( data );
 
   return (
     <div className='contents'>
-      <h1>BURGERS</h1>
-      <h4>(ALL NATURAL 1/2 LB BEEF)</h4>
+      <h1>{ BURGERS_DATA.heading }</h1>
+      <h4>{ BURGERS_DATA.subHeading }</h4>
       <div className='menu-wrapper'>
         { burgerItems }
     </div>

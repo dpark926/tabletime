@@ -1,5 +1,6 @@
 import React from 'react';
 import ASIAN_DATA from '../../data/lunch/ASIAN';
+import MapItems from '../MapItems';
 
 function Asian () {
   const udonData = ASIAN_DATA.UDON.items;
@@ -8,61 +9,10 @@ function Asian () {
   const teriyakiData = ASIAN_DATA.TERIYAKI.items;
   const stirFryData = ASIAN_DATA.STIR_FRY.items;
 
-  const udonItems = udonData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const ramenItems = ramenData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const bibimbapItems = bibimbapData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
-
-  const teriyakiItems = teriyakiData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
+  const udonItems = MapItems( udonData );
+  const ramenItems = MapItems( ramenData );
+  const bibimbapItems = MapItems( bibimbapData );
+  const teriyakiItems = MapItems( teriyakiData );
 
   const stirFryItems = stirFryData.map( item => {
     return (
@@ -82,32 +32,32 @@ function Asian () {
 
   return (
     <div className='contents'>
-      <h1>UDON</h1>
-      <h4>(SERVED WITH BROCCOLI, SCALLIONS, CARROTS, SEAWEED, YUBU)</h4>
+      <h1>{ ASIAN_DATA.UDON.heading }</h1>
+      <h4>{ ASIAN_DATA.UDON.subHeading }</h4>
       <h4>SOBA $1.00 EXTRA</h4>
       <div className='menu-wrapper'>
         { udonItems }
       </div>
-      <h1>RAMEN</h1>
-      <h4>(SERVED WITH BROCCOLI, SCALLION, CARROT)</h4>
+      <h1>{ ASIAN_DATA.RAMEN.heading }</h1>
+      <h4>{ ASIAN_DATA.RAMEN.subHeading }</h4>
       <h4>EGG $1.00 EXTRA</h4>
       <div className='menu-wrapper'>
         { ramenItems }
       </div>
-      <h1>BIBIMBAP</h1>
-      <h4>(SERVED WITH WHITE RICE, SEASONED VEGETABLES, FRIED EGG AND HOT PASTE)</h4>
+      <h1>{ ASIAN_DATA.BIBIMBAP.heading }</h1>
+      <h4>{ ASIAN_DATA.BIBIMBAP.subHeading }</h4>
       <h4>BROWN RICE $1.00 EXTRA</h4>
       <div className='menu-wrapper'>
         { bibimbapItems }
       </div>
-      <h1>TERIYAKI</h1>
-      <h4>(SERVED WITH BROCCOLI, CARROTS, ONIONS, MUSHROOMS)</h4>
+      <h1>{ ASIAN_DATA.TERIYAKI.heading }</h1>
+      <h4>{ ASIAN_DATA.TERIYAKI.subHeading }</h4>
       <h4>BROWN RICE OR YAKI UDON $1.00 EXTRA</h4>
       <div className='menu-wrapper'>
         { teriyakiItems }
       </div>
-      <h1>STIR FRY</h1>
-      <h4>$8.95</h4>
+      <h1>{ ASIAN_DATA.STIR_FRY.heading }</h1>
+      <h4>{ ASIAN_DATA.STIR_FRY.subHeading }</h4>
       <h4>BROWN RICE, SOBA, SHRIMP $1.00 EXTRA</h4>
       <div className='menu-wrapper'>
         { stirFryItems }

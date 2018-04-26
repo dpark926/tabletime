@@ -1,24 +1,13 @@
 import React from 'react';
 import SALADS_DATA from '../../data/lunch/SALADS';
+import MapItems from '../MapItems';
 import '../../styles/EachMenu.css';
 
 function Salads () {
   const homestyleSaladData = SALADS_DATA.HOMESTYLE_SALADS.items;
   const customSaladData = SALADS_DATA.CUSTOM_SALADS.items;
 
-  const homestyleSaladItems = homestyleSaladData.map( item => {
-    return (
-      <div className='item-box'>
-        <div className='item-left'>
-          <span className='item-name'>{ item.itemName }</span>
-          <span className='item-description'>{ item.itemDescription }</span>
-        </div>
-        <div className='item-right'>
-          <span className='item-price'>{ item.itemPrice }</span>
-        </div>
-      </div>
-    );
-  });
+  const homestyleSaladItems = MapItems( homestyleSaladData );
 
   const customSaladItems = customSaladData.map( item => {
     return (
