@@ -7,11 +7,7 @@ import handleNavClick from '../actions/clickActions';
 
 class BreakfastContainer extends Component {
   handleClickedSubNav = ( event ) => {
-    // this.setState({
-    //   clickedSubNav: event.target.id
-    // })
     this.props.handleClickedSubNav( event.target.id );
-
   }
 
   render = () => {

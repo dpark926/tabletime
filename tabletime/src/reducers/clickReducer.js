@@ -1,9 +1,4 @@
-const initialState = {
-  clickedNav: '',
-  clickedSubNav: '',
-}
-
-const clickReducer = ( state = initialState, { type, payload } ) => {
+const clickReducer = ( state, { type, payload } ) => {
   switch ( type ) {
     case 'handleNavClick':
       return {
