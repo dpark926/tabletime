@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './store';
 // Containers
 import HeaderContainer from './containers/HeaderContainer.js';
 import BreakfastContainer from './containers/BreakfastContainer.js';
@@ -22,27 +24,28 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <HeaderContainer/>
+      <Provider store={ store }>
+        <div className="App">
+          <HeaderContainer/>
+          <main>
+            <Route path="/breakfast" component={BreakfastContainer}/>
+            <Route path="/lunch" component={LunchContainer}/>
 
-        <main>
-          <Route path="/breakfast" component={BreakfastContainer}/>
-          <Route path="/lunch" component={LunchContainer}/>
+            <Route path="/breakfast/coffee-tea" component={CoffeeTea}/>
+            <Route path="/breakfast/bagels" component={Bagels}/>
+            <Route path="/breakfast/breakfast" component={Breakfast}/>
+            <Route path="/breakfast/pastries" component={Pastries}/>
 
-          <Route path="/breakfast/coffee-tea" component={CoffeeTea}/>
-          <Route path="/breakfast/bagels" component={Bagels}/>
-          <Route path="/breakfast/breakfast" component={Breakfast}/>
-          <Route path="/breakfast/pastries" component={Pastries}/>
-
-          <Route path="/lunch/sandwiches" component={Sandwiches}/>
-          <Route path="/lunch/salads" component={Salads}/>
-          <Route path="/lunch/burgers" component={Burgers}/>
-          <Route path="/lunch/wraps" component={Wraps}/>
-          <Route path="/lunch/quesadillas" component={Quesadillas}/>
-          <Route path="/lunch/paninis" component={Paninis}/>
-          <Route path="/lunch/asian" component={Asian}/>
-        </main>
-      </div>
+            <Route path="/lunch/sandwiches" component={Sandwiches}/>
+            <Route path="/lunch/salads" component={Salads}/>
+            <Route path="/lunch/burgers" component={Burgers}/>
+            <Route path="/lunch/wraps" component={Wraps}/>
+            <Route path="/lunch/quesadillas" component={Quesadillas}/>
+            <Route path="/lunch/paninis" component={Paninis}/>
+            <Route path="/lunch/asian" component={Asian}/>
+          </main>
+        </div>
+      </Provider>
     );
   }
 }
