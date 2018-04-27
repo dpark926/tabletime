@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Header.css'
 
-function Header () {
+function Header (props) {
   return (
     <div className='header'>
       <div className='header-each'>20 EAST 42ND ST</div>

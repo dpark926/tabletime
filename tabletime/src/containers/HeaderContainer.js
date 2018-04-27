@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import '../styles/Menu.css';
@@ -7,20 +7,6 @@ import '../styles/HeaderContainer.css';
 import logo from '../styles/imgs/tabletime-black.png';
 
 class MenuContainer extends Component {
-  constructor () {
-    super()
-
-    this.state = {
-      clickedNav: ''
-    }
-  }
-
-  handleClickedNav = ( event ) => {
-    this.setState({
-      clickedNav: event.target.id
-    })
-  }
-
   render = () => {
     return (
       <header className='header-container'>
@@ -30,13 +16,10 @@ class MenuContainer extends Component {
           </Link>
         </div>
         <Header/>
-        <Navigation
-          handleClickedNav={this.handleClickedNav}
-          clickedNav={this.state.clickedNav}
-        />
+        <Navigation/>
       </header>
     )
   }
 }
 
-export default MenuContainer
+export default MenuContainer;
