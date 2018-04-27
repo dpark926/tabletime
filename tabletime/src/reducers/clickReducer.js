@@ -5,12 +5,12 @@ const initialState = {
 
 const clickReducer = ( state = initialState, { type, payload } ) => {
   switch ( type ) {
-    case 'handleNavClick1':
+    case 'handleNavClick':
       return {
         ...state,
         clickedNav: payload.clickedNav
       }
-    case 'handleSubNavClick1':
+    case 'handleSubNavClick':
       return {
         ...state,
         clickedSubNav: payload.clickedSubNav

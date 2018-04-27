@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import handleNavClick from '../actions/clickActions';
 
 class LunchContainer extends Component {
-  constructor () {
-    super()
-
-    this.state = {
-      clickedSubNav: ''
-    }
-  }
-
   handleClickedSubNav = ( event ) => {
-    this.setState({
-      clickedSubNav: event.target.id
-    })
+    this.props.handleClickedSubNav( event.target.id );
   }
 
   render = () => {
@@ -21,49 +13,49 @@ class LunchContainer extends Component {
       <div className='lunch-container'>
         <Link to="/lunch/sandwiches" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='sandwiches'>
-            <span className={ 'sandwiches' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='sandwiches'>
+            <span className={ 'sandwiches' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='sandwiches'>
               SANDWICHES
             </span>
           </div>
         </Link>
         <Link to="/lunch/salads" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='salads'>
-            <span className={ 'salads' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='salads'>
+            <span className={ 'salads' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='salads'>
               SALADS
             </span>
           </div>
         </Link>
         <Link to="/lunch/burgers" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='burgers'>
-            <span className={ 'burgers' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='burgers'>
+            <span className={ 'burgers' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='burgers'>
               BURGERS
             </span>
           </div>
         </Link>
         <Link to="/lunch/quesadillas" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='quesadillas'>
-            <span className={ 'quesadillas' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='quesadillas'>
+            <span className={ 'quesadillas' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='quesadillas'>
               QUESADILLAS
             </span>
           </div>
         </Link>
         <Link to="/lunch/wraps" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='wraps'>
-            <span className={ 'wraps' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='wraps'>
+            <span className={ 'wraps' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='wraps'>
               WRAPS
             </span>
           </div>
         </Link>
         <Link to="/lunch/paninis" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='paninis'>
-            <span className={ 'paninis' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='paninis'>
+            <span className={ 'paninis' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='paninis'>
               PANINIS
             </span>
           </div>
         </Link>
         <Link to="/lunch/asian" className='lunch-category' onClick={this.handleClickedSubNav}>
           <div id='asian'>
-            <span className={ 'asian' === this.state.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='asian'>
+            <span className={ 'asian' === this.props.clickedSubNav ? 'active-subnav subnav-hover' : 'subnav-hover' } id='asian'>
               ASIAN
             </span>
           </div>
@@ -73,4 +65,12 @@ class LunchContainer extends Component {
   }
 }
 
-export default LunchContainer
+const mapStateToProps = state => {
+  return state;
+};
+
+const mapActionsToProps = {
+  handleClickedSubNav: handleNavClick.handleSubNavClick
+}
+
+export default connect( mapStateToProps, mapActionsToProps )( LunchContainer );
